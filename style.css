@@ -12,11 +12,12 @@ body {
     background-image: url('background.png');
 }
 
+/*
 img {
     border: 0;
     -ms-interpolation-mode: bicubic;
 }
-
+*/
 /* Links
 ========================================================================== */
 
@@ -118,17 +119,16 @@ Structure
     overflow: hidden;
     min-height: 150px;
     padding: 15px 15px 45px;
-    border: 1px solid #ddd;
+    border: 1px solid #d35400;
     border-radius: 4px;
     text-decoration: none;
-    background: #fff;
+    background: #e67e22;
 }
 
 a.box:hover,
 a.box:focus,
 a.box:active {
-    box-shadow: inset 0 0 0 3px #005E80;
-    border-color: #005E80;
+    box-shadow: inset 0 0 0 3px #d35400;
     text-decoration: none;
 }
 
@@ -152,10 +152,6 @@ a.box:active {
 .stats {
     margin: 0 0 2em;
     font-size: 1.125em;
-}
-
-.twitter-follow-button {
-    margin-top: 25px;
 }
 
 /* Content

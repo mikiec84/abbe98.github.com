@@ -12,12 +12,6 @@ body {
     background-image: url('background.png');
 }
 
-/*
-img {
-    border: 0;
-    -ms-interpolation-mode: bicubic;
-}
-*/
 /* Links
 ========================================================================== */
 
@@ -142,6 +136,7 @@ a.box:active {
 
 .site-logo img {
     border: 1px solid #222;
+    border-radius: 500px;
 }
 
 .site-header .box {
@@ -184,7 +179,6 @@ a.box:active {
     font-style: italic;
     color: #bbb;
 }
-
 
 /* =============================================================================
 Small screen adjustments

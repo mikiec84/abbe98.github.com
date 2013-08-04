@@ -131,19 +131,3 @@
     }
 
 })(jQuery);
-
-// External 3rd party scripts
-(function(doc, script) {
-    var js,
-        fjs = doc.getElementsByTagName(script)[0],
-        add = function(url, id) {
-            if (doc.getElementById(id)) {return;}
-            js = doc.createElement(script);
-            js.src = url;
-            id && (js.id = id);
-            fjs.parentNode.insertBefore(js, fjs);
-        };
-
-    // Twitter SDK
-    add('http://platform.twitter.com/widgets.js', 'twitter-wjs');
-}(document, 'script'));

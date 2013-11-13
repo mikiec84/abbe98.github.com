@@ -2,13 +2,6 @@ layouts: ./_layouts
 name: "Blog"
 description: "Albin Larssons Blog"
 
-
-url: "http://abbe98.github.io/blog/index.html"
-
-
-
-paginate: 10
-
-
+url: "http://abbe98.github.io/blog
 
 permalink: pretty

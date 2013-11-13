@@ -1,3 +1,4 @@
+layouts: ./_layouts
 name: "Blog"
 description: "Albin Larssons Blog"
 

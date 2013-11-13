@@ -1,4 +1,4 @@
-layouts: ./_layouts
+source: /blog/
 name: "Blog"
 description: "Albin Larssons Blog"
 

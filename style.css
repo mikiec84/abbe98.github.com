@@ -24,10 +24,14 @@ nav a {
 	display: block;
 	width: 50%;
 	height: 40px;
+	text-align: center;
+	color: #333;
+	margin-bottom: 8px;
 }
 
 nav a:hover, nav a:active, a div:focus {
 	background-color: #EF870E;
+	color: #333;
 }
 
 /* Links

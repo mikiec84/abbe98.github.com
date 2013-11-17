@@ -54,7 +54,15 @@ nav a:hover, nav a:active, a div:focus {
 	color: #333;
 	font-weight: 600;
 	font: 17px/1.7 Helvetica, Arial, sans-serif;
-	text-decoration: none;
+	border-radius: 4px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.btn:hover, .btn:active, .btn:focus {
+	color: #333;
+	background-color: #EF870E;
 }
 
 /* Links

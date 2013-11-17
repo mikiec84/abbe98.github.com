@@ -4,7 +4,7 @@ title: Albin Larsson
 ---
 
 {% for post in site.posts limit: 5 %}
-<div>
+<div class="box">
 	<h2><a href="{{ post.url }}" title="{{ post.title | xml_escape }}">{{ post.title }}</a></h2>
 	<p>
 		{% assign day = post.date | date: '%d' %}

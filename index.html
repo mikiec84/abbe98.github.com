@@ -6,6 +6,7 @@ title: Albin Larsson
 {% for post in site.posts limit: 5 %}
 <div class="box">
 	<h2><a href="{{ post.url }}" title="{{ post.title | xml_escape }}">{{ post.title }}</a></h2>
+	{{ post.content }}
 	<p>
 		{% assign day = post.date | date: '%d' %}
 		{% case day %}
@@ -20,6 +21,5 @@ title: Albin Larsson
 		{% endcase %}
 		{{ post.date | date: '%e' }}{{ suffix }}{{ post.date | date: ' %B %Y' }}
 	</p>
-	{{ post.content }}
 </div>
 {% endfor %}

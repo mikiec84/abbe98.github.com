@@ -18,7 +18,8 @@ body {
 nav {
 	background-color: #FF8A00;
 	height: 35px;
-	margin-bottom: 8px;
+	margin-top: -10px;
+	margin-bottom: 10px;
 	font: 17px/1.7 Helvetica, Arial, sans-serif;
 }
 
@@ -32,7 +33,6 @@ a[role="menuitem"] {
 	font-weight: 600;
 }
 nav a:hover, nav a:active, a div:focus {
-	background-color: #EF870E;
 	color: #333;
 	border-top: 4px solid #FF8A00;
 }

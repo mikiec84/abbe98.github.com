@@ -12,6 +12,15 @@ body {
 	background-image: url('background.jpg');
 }
 
+nav {
+	background-color: #FF8A00;
+}
+
+nav a:hover, nav a:active, a div:focus {
+	background-color: #EF870E;
+	display: block;
+}
+
 /* Links
  ========================================================================== */
 

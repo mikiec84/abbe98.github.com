@@ -47,13 +47,13 @@ nav a:hover, nav a:active, a div:focus {
 
 .btn {
 	display: block;
-	height: 50px;
+	height: 35px;
 	width: 200px;
 	line-height: 50px;
 	background-color: #FF8A00;
 	color: #333;
-	font-weight: 600;
 	font: 17px/1.7 Helvetica, Arial, sans-serif;
+	font-weight: 600;
 	border-radius: 4px;
 	text-align: center;
 	margin-left: auto;

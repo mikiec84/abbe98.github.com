@@ -20,13 +20,14 @@ nav {
 	height: 40px;
 }
 
-nav a {
+a[role="menuitem"] {
 	display: block;
 	width: 50%;
 	height: 40px;
 	text-align: center;
 	color: #333;
 	margin-bottom: 8px;
+	float: left;
 }
 
 nav a:hover, nav a:active, a div:focus {

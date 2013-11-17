@@ -19,6 +19,7 @@ nav {
 	background-color: #FF8A00;
 	height: 40px;
 	margin: 0px;
+	position: absolute;
 	font: 17px/1.7 Helvetica, Arial, sans-serif;
 }
 

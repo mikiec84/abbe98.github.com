@@ -1,11 +1,25 @@
 ---
 layout: default
-title: Blog
+title: Albin Larsson
 ---
 
-<h1>Test</h1>
-<ul class="posts">
-{% for post in site.posts %}
-	<li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+{% for post in site.posts limit: 5 %}
+<div>
+	<h2><a href="{{ post.url }}" title="{{ post.title | xml_escape }}">{{ post.title }}</a></h2>
+	<p>
+		{% assign day = post.date | date: '%d' %}
+		{% case day %}
+			{% when '01', '21', '31' %}
+				{% assign suffix = 'st' %}
+			{% when '02', '22' %}
+				{% assign suffix = 'nd' %}
+			{% when '03', '23' %}
+				{% assign suffix = 'rd' %}
+			{% else %}
+				{% assign suffix = 'th' %}
+		{% endcase %}
+		{{ post.date | date: '%e' }}{{ suffix }}{{ post.date | date: ' %B %Y' }}
+	</p>
+	{{ post.content }}
+</div>
 {% endfor %}
-</ul>

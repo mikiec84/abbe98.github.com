@@ -59,114 +59,19 @@ p {
 	margin: 0 0 1em;
 }
 
-/* Lists
- ========================================================================== */
-
-ol, ul {
-	list-style: none;
-	padding: 0;
-	margin: 0;
-}
-
-/* =============================================================================
- Structure
- ========================================================================== */
-
-.grid {
-	display: block;
-	padding: 0;
-	margin: 0 -10px;
-	/* remove intra-unit whitespace for all font families */
-	letter-spacing: -0.31em;
-	*letter-spacing: normal;
-	word-spacing: -0.43em;
-	/* protect against WebKit bug with optimizelegibility */
-	text-rendering: optimizespeed;
-}
-
-.unit-1-3 {
-	width: 300px;
-	display: inline-block;
-	margin: 0 10px 20px;
-	/* controls vertical positioning of units */
-	vertical-align: top;
-	/* reset defaults */
-	letter-spacing: normal;
-	word-spacing: normal;
-	text-rendering: auto;
-	*display: inline;
-	*zoom: 1;
-}
-
 /* Box
  ========================================================================== */
 
-.box {
+.post {
 	position: relative;
 	display: block;
 	overflow: hidden;
-	min-height: 150px;
-	padding: 15px 15px 45px;
+	padding-bottom: 15px;
 	border: 1px solid #FF8A00;
 	border-radius: 4px;
 	text-decoration: none;
-	background: #FFFFFF;
-}
-
-a.box:hover, a.box:focus, a.box:active {
+	background: #F7F0F0;
 	box-shadow: inset 0 0 0 3px #e67e22;
-	text-decoration: none;
-}
-
-/* Repospage
- ========================================================================== */
-
-.site-header {
-	float: left;
-	text-align: center;
-}
-
-.site-logo img {
-	border: 1px solid #222;
-	border-radius: 500px;
-}
-
-.site-header .box {
-	min-height: 412px;
-	padding-bottom: 15px;
-}
-
-.stats {
-	margin: 0 0 10px;
-	font-size: 1.125em;
-}
-
-.repo__name {
-	margin: 0 0 0.1em;
-	font-size: 1.5em;
-}
-
-.repo__info {
-	display: block;
-	margin: 0 0 1.25em;
-	font-size: 12px;
-	font-weight: bold;
-	color: #999;
-}
-
-.repo__desc {
-	color: #666;
-}
-
-.repo__updated {
-	position: absolute;
-	right: 15px;
-	bottom: 15px;
-	left: 15px;
-	margin: 0;
-	font-size: 13px;
-	font-style: italic;
-	color: #bbb;
 }
 
 /* =============================================================================

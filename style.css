@@ -11,7 +11,7 @@ body {
 	background-image: url('background.jpg');
 }
 
-/* Links
+/* Menu
  ========================================================================== */
 
 nav {
@@ -40,6 +40,21 @@ a[role="menuitem"]:last-child {
 nav a:hover, nav a:active, a div:focus {
 	color: #333;
 	background-color: #EF870E;
+}
+
+/* btn
+ ========================================================================== */
+
+.btn {
+	display: block;
+	height: 50px;
+	width: 200px;
+	line-height: 50px;
+	background-color: #FF8A00;
+	color: #333;
+	font-weight: 600;
+	font: 17px/1.7 Helvetica, Arial, sans-serif;
+	text-decoration: none;
 }
 
 /* Links

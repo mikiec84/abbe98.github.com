@@ -18,7 +18,9 @@ body {
 nav {
 	background-color: #FF8A00;
 	height: 40px;
+	margin-top: 0px;
 	margin-bottom: 8px;
+	font: 17px/1.7 Helvetica, Arial, sans-serif;
 }
 
 a[role="menuitem"] {
@@ -78,7 +80,7 @@ h3, .h3 {
 	margin: 0 0 10px;
 }
 
-/* Box
+/* Posts
  ========================================================================== */
 
 .post {

@@ -62,12 +62,12 @@ nav a:hover, nav a:active, nav a:focus {
  ========================================================================== */
 
 a {
-	color: #A8DBA8;
+	color: rgb(11, 72, 107);
 	text-decoration: none;
 }
 
 a:hover, a:focus, a:active {
-	color: #79BD9A;
+	color: #3B8686;
 	text-decoration: underline;
 }
 

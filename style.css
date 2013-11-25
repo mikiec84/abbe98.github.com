@@ -37,7 +37,7 @@ a[role="menuitem"]:last-child {
 	border-radius: 0px 0px 4px 0px;
 }
 
-nav a:hover, nav a:active, a div:focus {
+nav a:hover, nav a:active, nav a:focus {
 	color: #333;
 	background-color: #EF870E;
 }
@@ -95,7 +95,7 @@ p {
 }
 
 h1, h2 {
-	margin: 0 0 1em;
+	margin: 0px;
 }
 
 h1, .h1 {

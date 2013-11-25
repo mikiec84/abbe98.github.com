@@ -49,6 +49,7 @@ nav a:hover, nav a:active, nav a:focus {
 	font: 17px/1.7 Helvetica, Arial, sans-serif;
 	font-weight: 600;
 	text-align: center;
+	padding-top: 5px;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -110,6 +111,14 @@ h3, .h3 {
 	background: rgb(247, 240, 240);
 	margin-bottom: 8px;
 	font: 17px/1.7 Helvetica, Arial, sans-serif;
+}
+
+.post a {
+	text-decoration: underline;
+}
+
+.date{
+	font: 14px/1.4 Helvetica,Arial,sans-serif;
 }
 
 .share {

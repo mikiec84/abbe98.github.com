@@ -132,7 +132,9 @@ h3, .h3 {
 	width: 100%;
 	border-top: 2px solid #FF8A00;
 	border-bottom: 2px solid #FF8A00;
-	height: auto;
+	height: 25px;
+	padding-top: 3px;
+	margin-bottom: 3px;
 }
 
 /* Archive

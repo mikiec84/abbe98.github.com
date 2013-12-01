@@ -4,7 +4,7 @@ title: Albin Larsson
 ---
 
 {% for post in site.posts limit: 5 %}
-<div class="post">
+<article class="post">
 	<h2><a href="{{ post.url }}" title="{{ post.title | xml_escape }}">{{ post.title }}</a></h2>
 	{{ post.content }}
 	<p class="date">
@@ -21,8 +21,8 @@ title: Albin Larsson
 		{% endcase %}
 		{{ post.date | date: '%e' }}{{ suffix }}{{ post.date | date: ' %B %Y' }}
 	</p>
-</div>
+</article>
 {% endfor %}
-<a  href="http://abbe98.github.io/archive/" class="btn">
+<a role="button" href="http://abbe98.github.io/archive/" class="btn">
 	Archive
 </a>

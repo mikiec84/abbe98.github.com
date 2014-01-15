@@ -6,7 +6,6 @@ title: Albin Larsson
 {% for post in site.posts limit: 5 %}
 <article class="post">
 	<h2><a href="{{ post.url }}" title="{{ post.title | xml_escape }}">{{ post.title }}</a></h2>
-	{{ post.content }}
 	<p class="date">
 		{% assign day = post.date | date: '%d' %}
 		{% case day %}
@@ -21,6 +20,8 @@ title: Albin Larsson
 		{% endcase %}
 		{{ post.date | date: '%e' }}{{ suffix }}{{ post.date | date: ' %B %Y' }}
 	</p>
+	{{ post.excerpt }}
+	<a href="{{ post.url }}" title="{{ post.title | xml_escape }}">Read it all...</a>
 </article>
 {% endfor %}
 <a role="button" href="http://abbe98.github.io/archive/" class="btn">

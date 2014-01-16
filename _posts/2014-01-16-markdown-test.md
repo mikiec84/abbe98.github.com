@@ -7,6 +7,12 @@ This is just a major test for markdown, Jekyll excerpt and code highlighting.
 
 The code highlightning example has been removed :-(
 
+test case
+
+test case
+
+test case
+
 Test test test [test][1] **test** *test* 
 
  1. hello

@@ -130,7 +130,7 @@ h3, .h3 {
 /* Archive
  ========================================================================== */
 
-li, ul {
+li.archive, ul.archive {
 	list-style: none;
 	padding: 0px;
 }

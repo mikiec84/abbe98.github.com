@@ -6,6 +6,10 @@ title: Albin Larsson
 {% for post in site.posts limit: 13 %}
 <article class="post">
 	<h2><a href="{{ post.url }}" title="{{ post.title | xml_escape }}">{{ post.title }}</a></h2>
+	<div class="btn-wrapper">
+		<div href="http://abbe98.github.io{{ post.url }}" class="g-plusone" data-size="medium"></div>
+		<a href="https://twitter.com/share" class="twitter-share-button" data-via="albinpclarsson" data-lang="en" url="http://abbe98.github.io{{ post.url }}" counturl="http://abbe98.github.io{{ post.url }}">Tweet</a>
+	</div>
 	<p class="date">
 		{% assign day = post.date | date: '%d' %}
 		{% case day %}

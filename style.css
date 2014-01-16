@@ -112,8 +112,10 @@ h3, .h3 {
 	text-decoration: underline;
 }
 
-.date{
+.date {
 	font: 14px/1.4 Helvetica,Arial,sans-serif;
+	margin-top: 2px;
+	margin-bottom: 2px;
 }
 
 .share {

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Board as open source
 ---
 Board, my "startpage" in Opera, my note application, my bookmark manager and my page for testing HTML5 features. During the summer I decided to clean it up and allow other users try it out, I dropped tons of things(I miss the Grooveshark integration), and fixed the browser supports, I did add synchronization for Opera users(with a extension) and fixed the browser support...

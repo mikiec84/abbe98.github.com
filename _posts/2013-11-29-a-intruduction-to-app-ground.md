@@ -20,7 +20,7 @@ Help Classes
 Help Classes is a collection of CSS classes you will use often, this includes classes to hide/view specific elements on different screen resolutions, align text and other common classes. Help Classes is also provided by Facile Framework.
 ##JS
 jQuery
-App Ground comes with [3][jQuery] 2.0.3 that supports major modern browsers. App Ground loads jQuery from the Google CDN, if it fails jQuery is loaded from a local copy.
+App Ground comes with [jQuery][3] 2.0.3 that supports major modern browsers. App Ground loads jQuery from the Google CDN, if it fails jQuery is loaded from a local copy.
 
 Help JS
 Help JS sets variables telling you if your user has a internet connection, a touch device,or is browsing your app in portrait or landscape mode and other things… Note that detecting touch devices does not work in some older browsers as Internet Explorer 9 Mobile(Windows Phone 7/7.5/7.8).

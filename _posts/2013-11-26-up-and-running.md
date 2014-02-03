@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: Up and running!
 description: Albin Larssons blog about web development, open data web accessibility and maps is now live.

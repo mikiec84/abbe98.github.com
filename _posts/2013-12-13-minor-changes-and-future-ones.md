@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: Minor changes and future ones...
 description: Minor changes and future ones to abbe98.github.io.

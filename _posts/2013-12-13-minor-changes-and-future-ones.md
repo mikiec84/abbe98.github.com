@@ -1,6 +1,8 @@
----
+﻿---
 layout: post
 title: Minor changes and future ones...
+description: Minor changes and future ones to abbe98.github.io.
+image: http://abbe98.github.io/assets/default.png
 ---
 So this webpage was a 30 minutes hack + some hours of bug fixes, for short I have a long list of “Todo”s…
 But I have been doing two very small improvements…

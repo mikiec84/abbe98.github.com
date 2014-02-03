@@ -2,19 +2,20 @@
 <html>
 	<head>
 		<meta charset='utf-8' />
-		<meta id="viewport" name="viewport" content ="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-		<meta name="google-site-verification" content="ggbSb9CvyxZ8PpDwiViwiTeoswb37GKsWGMr7a6Nzew" />
+		<meta id="viewport" name="viewport" content ="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+		<meta name="google-site-verification" content="ggbSb9CvyxZ8PpDwiViwiTeoswb37GKsWGMr7a6Nzew"/>
 		<title>{{ page.title }}</title>
-		<meta property="og:image" content="https://2.gravatar.com/avatar/e2d1aa4d18da15648214097a5cca4c89?d=https%3A%2F%2Fidenticons.github.com%2F1ebbe16599ce28ff52bbf0aeb2cd02e3.png&r=x&s=440"/>
-		<meta name="description" content="Albin Larssons blog about all the things behind what you see on the web."/>
-		<link rel="icon" href="http://abbe98.github.io/favicon.ico" type="shortcut icon"/>
+		<meta property="og:image" content="{{ page.image }}"/>
+		<meta name="description" content="{{ page.description }}"/>
+		<link rel="icon" href="/favicon.ico" type="shortcut icon"/>
 		<link rel="stylesheet" href="/style.css"/>
 	</head>
 	<body>
-		<nav role="menubar">
-			<a href="http://abbe98.github.io" role="menuitem"> Blog </a>
-			<a href="http://abbe98.github.io/repositories.html" role="menuitem"> Projects </a>
-		</nav>
+		<header>
+			<img src="http://fakeimg.pl/310/">
+			<h1>Abbe</h1>
+		</header>
 		{{ content }}
+		<footer><p>Copyright <a href="https://plus.google.com/117416771865902932932">Albin Larsson</a> 2013-2014 • <a href="https://www.somewhere.com/abbe">Somewhere</a> • <a href="https://github.com/Abbe98">Github</a></p></footer>
 	</body>
 </html>

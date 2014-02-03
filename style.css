@@ -8,32 +8,7 @@ html {
 body {
 	max-width: 940px;
 	margin: 0 auto;
-	background-image: url('background.jpg');
-}
-
-/* Menu
- ========================================================================== */
-
-nav {
-	background-color: #79BD9A;
-	height: 35px;
-	margin-bottom: 8px;
-	font: 17px/1.7 Helvetica, Arial, sans-serif;
-}
-
-a[role="menuitem"] {
-	display: block;
-	width: 50%;
-	height: 35px;
-	text-align: center;
-	color: #333;
-	float: left;
-	font-weight: 600;
-}
-
-nav a:hover, nav a:active, nav a:focus {
-	color: #333;
-	background-color: #3B8686;
+	background-image: url('assets/background.jpg');
 }
 
 /* btn
@@ -72,23 +47,41 @@ a:hover, a:focus, a:active {
 	text-decoration: underline;
 }
 
+/* Header
+ ========================================================================== */
+
+header {
+	height: 3.5em;
+}
+
+header h1 {
+	font-size: 3em;
+	margin: 0;
+}
+
+header img {
+	height: 3em;
+	float: left;
+	padding-right: 5px;
+}
+
 /* Typography
  ========================================================================== */
 
-h1, h2 {
+h2 {
 	margin: 0px;
 }
 
-h1, .h1 {
+h1 {
 	margin: 0 0 0.25em;
-	font-size: 2.75em;
+	font-size: 2em;
 }
 
-h2, .h2 {
+h2 {
 	font-size: 1.25em;
 }
 
-h3, .h3 {
+h3 {
 	font-size: 1.125em;
 	color: #777;
 	margin: 0 0 10px;

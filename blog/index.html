@@ -1,0 +1,31 @@
+---
+layout: default
+title: Albin Larssons Blog
+description: Albin Larssons blog about web development, open data web accessibility and maps.
+image: http://abbe98.github.io/assets/default.png
+---
+
+{% for post in site.posts limit: 8 %}
+<article class="post">
+	<h2><a href="{{ post.url }}" title="{{ post.title | xml_escape }}">{{ post.title }}</a></h2>
+	<p class="date">
+		{% assign day = post.date | date: '%d' %}
+		{% case day %}
+			{% when '01', '21', '31' %}
+				{% assign suffix = 'st' %}
+			{% when '02', '22' %}
+				{% assign suffix = 'nd' %}
+			{% when '03', '23' %}
+				{% assign suffix = 'rd' %}
+			{% else %}
+				{% assign suffix = 'th' %}
+		{% endcase %}
+		{{ post.date | date: '%e' }}{{ suffix }}{{ post.date | date: ' %B %Y' }}
+	</p>
+	{{ post.excerpt }}
+	<a href="{{ post.url }}" title="{{ post.title | xml_escape }}">Read it all...</a>
+</article>
+{% endfor %}
+<a role="button" href="http://abbe98.github.io/archive/" class="btn">
+	Archive
+</a>

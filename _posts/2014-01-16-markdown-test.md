@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Markdown Test
+description: Test case for Markdown on this blog.
+image: http://abbe98.github.io/assets/default.png
 ---
 
 This is just a major test for markdown, Jekyll excerpt and code highlighting.

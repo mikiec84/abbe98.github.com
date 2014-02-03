@@ -1,6 +1,8 @@
----
+﻿---
 layout: post
 title: Up and running!
+description: Albin Larssons blog about web development, open data web accessibility and maps is now live.
+image: http://abbe98.github.io/assets/default.png
 ---
 So after a week working with [Jekyll][4], this new blog is somewhat ready for use. I will probably do changes to the site every week until summer, I have already things on the “todo” list for this blog.
 

@@ -1,6 +1,8 @@
----
+﻿---
 layout: post
 title: A introduction to App Ground.
+description: A intruduction App Ground the optimized template for high end web apps.
+image: http://abbe98.github.io/assets/default.png
 ---
 On Github I describe [App Ground][1] as a "template/boilerplate for javascript/HTML5 web apps.". That's true but for most web apps App Ground is overkill. It uses things like AppCache, print styles and Open Graph.
 

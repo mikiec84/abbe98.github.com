@@ -1,6 +1,6 @@
 ﻿---
 layout: post
-title: Getting time
+title: Getting time.
 description: Getting time is quite hard some times.
 image: http://abbe98.github.io/assets/default.png
 ---

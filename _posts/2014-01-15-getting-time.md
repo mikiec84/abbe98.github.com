@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: Getting time.
 description: Getting time is quite hard some times.

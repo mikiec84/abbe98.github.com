@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: A introduction to App Ground.
 description: A intruduction App Ground the optimized template for high end web apps.

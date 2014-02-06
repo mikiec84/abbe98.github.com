@@ -7,7 +7,7 @@ image: http://abbe98.github.io/assets/js.png
 Sometime ago I wrote "[4 JS projects at Github for your web app.][1]" soon after I felt sorry about all the ones I did not write about. So here comes another four JavaScript projects.
 
 ##mustache.js
-"Logic-less {{mustache}} templates with JavaScript", I have not been using mustache.js for a long time but I can see tons of use for it in the future. It allows you to use its variables declared in JS or JSON almost anywhere with its simple syntax `{{variable}}`. I won't go into explaining it, I leave that to it's documentation. 
+"Logic-less {{mustache}} templates with JavaScript", I have not been using mustache.js for a long time but I can see tons of use for it in the future. It allows you to use its variables declared in JS or JSON almost anywhere with its simple syntax. I won't go into explaining it, I leave that to it's documentation. 
 I found mustache.js through my contributions to [Adobe Brackets][2], there it's used for translations. I will probably use it similarly in some apps I working on, not major translations such as docs but UI related stuff.
 
 [mustache.js at Github][3]

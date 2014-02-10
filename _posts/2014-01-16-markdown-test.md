@@ -12,7 +12,8 @@ The code highlightning example has been removed :-(
 test case
 
 test case
-
+![my dog](https://lh4.googleusercontent.com/-qRZCV05zrRE/UsF64lsUmcI/AAAAAAAACUI/rxA81wj-rXQ/w883-h587-no/DSC_0061.JPG)
+![the default image for this post](http://abbe98.github.io/assets/default.png)
 test case
 
 Test test test [test][1] **test** *test* 

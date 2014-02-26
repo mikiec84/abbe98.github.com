@@ -38,7 +38,7 @@ That's it, had a great time creating this and hopefully it will continue to be i
 [Zip Download][18]
 
 ![Screenshot 1][19]
-![Screenshot 1][20]
+![Screenshot 2][20]
 
 [1]: https://github.com/Abbe98/OMap-Mapper
 [2]: https://github.com/Abbe98/OMap-Mapper/graphs

@@ -159,6 +159,7 @@ li.archive, ul.archive {
 	
 	.archive a:before {
 		content: "\A";
+		white-space: pre;
 	}
 
 }

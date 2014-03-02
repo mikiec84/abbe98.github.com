@@ -156,5 +156,9 @@ li.archive, ul.archive {
 	body {
 		max-width: 300px;
 	}
+	
+	.archive a:before {
+		content: "\A";
+	}
 
 }

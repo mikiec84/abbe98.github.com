@@ -7,7 +7,7 @@ image: http://abbe98.github.io/assets/default.png
 
 {% for post in site.posts limit: 8 %}
 <article class="post">
-	<h1><a href="{{ post.url }}" title="{{ post.title | xml_escape }}">{{ post.title }}</a></h1>
+	<h2><a href="{{ post.url }}" title="{{ post.title | xml_escape }}">{{ post.title }}</a></h2>
 	<p class="date">
 		{% assign day = post.date | date: '%d' %}
 		{% case day %}
@@ -22,8 +22,6 @@ image: http://abbe98.github.io/assets/default.png
 		{% endcase %}
 		{{ post.date | date: '%e' }}{{ suffix }}{{ post.date | date: ' %B %Y' }}
 	</p>
-	{{ post.excerpt }}
-	<a href="{{ post.url }}" title="{{ post.title | xml_escape }}">Read it all...</a>
 </article>
 {% endfor %}
 <a href="http://abbe98.github.io/archive.html" class="btn">

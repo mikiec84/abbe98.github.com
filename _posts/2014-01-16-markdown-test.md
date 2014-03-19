@@ -21,10 +21,13 @@ Test test test [test][1] **test** *test*
  1. hello
  2. hello2
 
-<pre><code class="language-javascript">>
-var str = "Hello World!";
-
-console.log(str);
+<pre><code class="language-css">
+html {
+  font: 14px/1.4 Helvetica, Arial, sans-serif;
+  color: #333;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
 </code></pre>
 
 #test

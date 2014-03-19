@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Major changes to Facile.
+title: Major changes to Facile
 description: Facile Framework could become a CSS prototyping framework.
 image: http://abbe98.github.io/assets/default.png
 ---

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: OMap Mapper day five.
+title: OMap Mapper day five
 description: The OMap Mapper project day five, future features and browser support.
 image: http://abbe98.github.io/assets/default.png
 ---

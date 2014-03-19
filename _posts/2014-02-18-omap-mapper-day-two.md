@@ -1,6 +1,6 @@
 ---
 layout: post
-title: OMap Mapper day two.
+title: OMap Mapper day two
 description: The OMap Mapper project day two, I haven't done anything.
 image: http://abbe98.github.io/assets/default.png
 ---

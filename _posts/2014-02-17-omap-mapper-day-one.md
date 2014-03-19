@@ -1,6 +1,6 @@
 ---
 layout: post
-title: OMap Mapper day one.
+title: OMap Mapper day one
 description: The OMap Mapper project day one, web a11y and maps.
 image: http://abbe98.github.io/assets/default.png
 ---

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: OMap Mapper day three.
+title: OMap Mapper day three
 description: The OMap Mapper project day three, some UI stuff and a Mozilla joke.
 image: http://abbe98.github.io/assets/default.png
 ---

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: OMap Mapper day 7 and done.
+title: OMap Mapper day 7 and done
 description: The OMap Mapper project is now published at Github and free to download.
 image: http://abbe98.github.io/assets/default.png
 ---

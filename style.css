@@ -177,3 +177,81 @@ li.archive, ul.archive {
 ::-webkit-scrollbar-track {
 	background-color: #EEE;
 }
+
+/* Social-bar
+ ========================================================================== */
+.social-bar {
+	overflow: auto;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.social-bar__item {
+	width: 20%;
+	float: left;
+	cursor: pointer;
+	text-align: center;
+	line-height: 25px;
+	border-top: 10px solid;
+	overflow: hidden;
+	-webkit-transition: border-width .25s ease;
+	-moz-transition: border-width .25s ease;
+	-ms-transition: border-width .25s ease;
+	-o-transition: border-width .25s ease;
+	transition: border-width .25s ease;
+}
+
+.social-bar__item:hover,
+.social-bar-2__item:focus {
+	border-top-width: 0;
+}
+
+.social-bar__item--twitter {
+	border-top-color: #00ACED;
+}
+
+.social-bar__item--github {
+	border-top-color: #D9D9D9;
+}
+
+.social-bar__item--openstreetmap {
+	border-top-color: #7EBC6F;
+}
+
+.social-bar__item--google {
+	border-top-color: #DD4B39;
+}
+
+.social-bar__item--somewhere {
+	border-top-color: #14263E;
+}
+
+.social-bar__item__text {
+	display: block;
+	opacity: 0;
+	font-size: 12px;
+
+	-webkit-transition: .25s ease;
+	-moz-transition: .25s ease;
+	-o-transition: .25s ease;
+	transition: .25s ease;
+
+	-webkit-transform: translateY(10px);
+	-moz-transform: translateY(10px);
+	-o-transform: translateY(10px);
+	transform: translateY(10px);
+}
+
+.social-bar__item__text:hover {
+	text-decoration: none;
+}
+
+.social-bar__item:hover .social-bar__item__text,
+.social-bar__item:focus .social-bar__item__text {
+	-webkit-transform: translateY(0px);
+	-moz-transform: translateY(0px);
+	-o-transform: translateY(0px);
+	transform: translateY(0px);
+
+	opacity: 1;
+}

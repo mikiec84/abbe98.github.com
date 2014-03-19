@@ -21,12 +21,12 @@ Test test test [test][1] **test** *test*
  1. hello
  2. hello2
 
-{% highlight javascript linenos %}
+<pre class="language-javascript">
 var str = "Hello World!";
 
 console.log(str);
 
-{% endhighlight %}
+</pre>
 
 #test
 ### test

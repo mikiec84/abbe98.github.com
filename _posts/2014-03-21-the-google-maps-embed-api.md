@@ -9,27 +9,17 @@ In January Google relaunched [The Google Maps Embed API][1], I haven't been usin
 Basic Map:
 <iframe width="600" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/view?key=AIzaSyAvypzfb14Io_hhtI9EA1oDAjjv4DUBQvw&zoom=16&center=59.0673%2C16.3582" style="display:block; margin: 0 auto;">&nbsp;</iframe>
 
-<pre><code><iframe width="600" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/view?key=AIzaSyAvypzfb14Io_hhtI9EA1oDAjjv4DUBQvw&zoom=16&center=59.0673%2C16.3582" style="display:block; margin: 0 auto;">&nbsp;</iframe></code></pre>
-
 Basic Map(Satellite):
 <iframe width="600" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/view?key=AIzaSyAvypzfb14Io_hhtI9EA1oDAjjv4DUBQvw&zoom=16&center=59.0673%2C16.3582&maptype=satellite" style="display:block; margin: 0 auto;">&nbsp;</iframe>
-
-<pre><code><iframe width="600" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/view?key=AIzaSyAvypzfb14Io_hhtI9EA1oDAjjv4DUBQvw&zoom=16&center=59.0673%2C16.3582&maptype=satellite" style="display:block; margin: 0 auto;">&nbsp;</iframe></code></pre>
 
 Place Map:
 <iframe width="600" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=Katrineholm%2C%20Sweden&key=AIzaSyAvypzfb14Io_hhtI9EA1oDAjjv4DUBQvw" style="display:block; margin: 0 auto;">&nbsp;</iframe>
 
-<pre><code><iframe width="600" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=Katrineholm%2C%20Sweden&key=AIzaSyAvypzfb14Io_hhtI9EA1oDAjjv4DUBQvw" style="display:block; margin: 0 auto;">&nbsp;</iframe></code></pre>
-
 Search Map(museums near Stockholm):
 <iframe width="600" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/search?q=museum%20near%20Stockholm%2C%20Sweden&key=AIzaSyAvypzfb14Io_hhtI9EA1oDAjjv4DUBQvw" style="display:block; margin: 0 auto;">&nbsp;</iframe>
 
-<pre><code><iframe width="600" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/search?q=museum%20near%20Stockholm%2C%20Sweden&key=AIzaSyAvypzfb14Io_hhtI9EA1oDAjjv4DUBQvw" style="display:block; margin: 0 auto;">&nbsp;</iframe></code></pre>
-
 Directions Map:
 <iframe width="600" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/directions?origin=Katrineholm%2C%20Sweden&destination=Flodafors%2C%20Sweden&key=AIzaSyAvypzfb14Io_hhtI9EA1oDAjjv4DUBQvw" style="display:block; margin: 0 auto;">&nbsp;</iframe>
-
-<pre><code><iframe width="600" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/directions?origin=Katrineholm%2C%20Sweden&destination=Flodafors%2C%20Sweden&key=AIzaSyAvypzfb14Io_hhtI9EA1oDAjjv4DUBQvw" style="display:block; margin: 0 auto;">&nbsp;</iframe></code></pre>
 
 That bus line is really weird and does not exist.
 

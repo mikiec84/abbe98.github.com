@@ -24,7 +24,7 @@ Say hello to `AWW.ajax()`, `AWW.get()` and `AWW.post()`.
 
 Simple example:
 
-<pre><code>
+<pre><code class="language-javascript">
 AWW.ajax({
   url: "http://filltext.com/?rows=10&business={business}&location={city}&pretty=true",
   success: function(data) {
@@ -35,7 +35,7 @@ AWW.ajax({
 
 WebWorker example:
 
-<pre><code>
+<pre><code class="language-javascript">
 importScripts('../../aww.js');
 
 getData();

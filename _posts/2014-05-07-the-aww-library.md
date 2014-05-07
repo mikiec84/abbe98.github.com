@@ -22,33 +22,6 @@ I do now that there is tons of small AJAX libraries in the wild, but not to many
 
 Say hello to `AWW.ajax()`, `AWW.get()` and `AWW.post()`.
 
-Simple example:
-<pre><code>
-AWW.ajax({
-  url: "http://filltext.com/?rows=10&business={business}&location={city}&pretty=true",
-  success: function(data) {
-    document.getElementById('results').innerHTML = data;
-  }
- });
-</code></pre>
-
-WebWorker example:
-<pre><code>
- importScripts('../../aww.js');
-
-getData();
-setInterval(getData, 1000);
-
-function getData() {
-  AWW.ajax({
-    url: "http://filltext.com/?rows=10&business={business}&location={city}&pretty=true",
-      success: function(data) {
-        postMessage(data);
-      }
-    });
-}
-</code></pre>
-
 For the full working examples see the ["tests"][3](**NOTE:** You will need a web server to run the WebWorker example).
 
 It's very easy to learn just [by reading the code][5].

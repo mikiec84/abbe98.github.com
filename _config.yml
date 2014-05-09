@@ -2,3 +2,6 @@ pygments: true
 name: "Blog"
 permalink: /blog/:year/:month/:day/:title
 markdown: kramdown
+
+gems:
+  - jekyll-sitemap

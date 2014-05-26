@@ -1,18 +1,18 @@
 ---
 layout: post
 title: OMapMapper Plans
-description: OMapMapper will get a update, here is the concept and todays issues.
+description: OMapMapper will get a update here is the concept and todays issues.
 image: http://abbe98.github.io/assets/default.png
 ---
 If you have been reading my blog time to time you know about OMapMaper, my project with the goal to in one week develop a fully working web app. OMapMapper ended up being a app for browsing your orienteering maps by location and sharing them online. It's not to simple to setup and it should not be used on a shared server. When the project week was over I had no intention to do any major improvements to the app, but things changes and now I got new ideas and feature concepts. 
 
 The new concept is about making OMapMapper just as simple to setup and use as Wordpress. Right now OMapMapper has some major issues:
 
- - Security:
+ - Security,
      - It does not have any "public/shared view" and have no restrictions such as accounts.
      - The admin interface is the only interface and no password is required.
      
- - Usability:
+ - Usability,
      - Not responsive(at all).
      - The export feature allows you to embed locations/maps, but requires that you update your embedded map each time to keep it up to date...
      - Does not support more then one user and if you tries to setup more then one copy of OMapMapper on one server you will probably be forced to modify the source.

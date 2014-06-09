@@ -11,6 +11,10 @@ body {
 	background-image: url('assets/subway-lines.png');
 }
 
+img {
+	border: 0;
+}
+
 /* btn
  ========================================================================== */
 

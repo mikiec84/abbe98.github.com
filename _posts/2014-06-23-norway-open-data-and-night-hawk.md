@@ -1,8 +1,7 @@
 ---
 layout: post
-title: Norway, Open data and Night Hawk
-description:  
-In august I'm going to Holmenkollen in Norway to participate in the orienteering relay Night Hawk and last year the Norwegian government decided to release tons of Geo data.
+title: Norway Open data and Night Hawk
+description: In august I'm going to Holmenkollen in Norway to participate in the orienteering relay Night Hawk and last year the Norwegian government decided to release tons of Geo data.
 image: http://abbe98.github.io/assets/default.png
 ---
 I'm just about to order a [Forerunner 10][1] GPS watch because I have lost my best running watch and I'm in need of one for the orienteering. 

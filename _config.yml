@@ -1,5 +1,4 @@
 pygments: true
-paginate: 5
 name: "Blog"
 permalink: /blog/:year/:month/:day/:title
 markdown: kramdown

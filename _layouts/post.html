@@ -1,35 +1,62 @@
 ---
-layout: default
+layout: nil
 ---
-<article class="post" >
-	<h2>{{ page.title }}</h2>
-	{{ content }}
-	<div class="share">
-		<div class="g-plusone" data-size="medium"></div><a href="https://twitter.com/share" class="twitter-share-button" data-via="albinpclarsson" data-lang="en">Tweet</a>
-	</div>
-</article>
-<script src="/js/prism.js"></script>
-<link rel="stylesheet" href="/css/prism.css"/>
-<script type="text/javascript">
-	//Google+
-	(function() {
-		var po = document.createElement('script');
-		po.type = 'text/javascript';
-		po.async = true;
-		po.src = 'https://apis.google.com/js/platform.js';
-		var s = document.getElementsByTagName('script')[0];
-		s.parentNode.insertBefore(po, s);
-	})(); 
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset='utf-8' />
+		<meta id="viewport" name="viewport" content ="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+		<meta name="google-site-verification" content="ggbSb9CvyxZ8PpDwiViwiTeoswb37GKsWGMr7a6Nzew"/>
+		<title>{{ page.title }}</title>
 
-	//Twitter
-	! function(d, s, id) {
-		var js, fjs = d.getElementsByTagName(s)[0];
-		if (!d.getElementById(id)) {
-			js = d.createElement(s);
-			js.id = id;
-			js.src = "https://platform.twitter.com/widgets.js";
-			fjs.parentNode.insertBefore(js, fjs);
-		}
-	}(document, "script", "twitter-wjs"); 
-</script>
+		<meta name="description" content="{{ page.description }}"/>
+		<meta property="og:image" content="{{ page.image }}"/>
+		<meta property="og:description" content="{{ page.description }}"/>
+
+		<link rel="alternate" type="application/rss+xml" href="http://abbe98.github.io/blog/atom.xml" title="Abbes Blog"/>
+		<link rel="icon" href="/favicon.ico" type="shortcut icon"/>
+		<link rel="stylesheet" href="/css/style.css"/>
+	</head>
+	<body>
+		<header>
+			<a href="http://abbe98.github.io/blog/"><img alt="Back to the blog" src="http://abbe98.github.io/assets/default.png"></a>
+			<h1>Abbe</h1>
+		</header>
+		<article class="post" >
+			<h2>{{ page.title }}</h2>
+			{{ content }}
+			<div class="share">
+				<div class="g-plusone" data-size="medium"></div><a href="https://twitter.com/share" class="twitter-share-button" data-via="albinpclarsson" data-lang="en">Tweet</a>
+			</div>
+		</article>
+		<footer>
+			<p>Copyright <a href="https://plus.google.com/117416771865902932932">Albin Larsson</a> 2013-2014 • <a href="http://abbe98.github.io/archive.html">Archive</a> • Background by <a href="http://www.marcbanderson.com">Marc Anderson</a> • <a href="http://abbe98.github.io/blog/atom.xml">RSS</a></p>
+		</footer>
+
+		<script src="/js/prism.js"></script>
+		<link rel="stylesheet" href="/css/prism.css"/>
+		<script type="text/javascript">
+			//Google+
+			(function() {
+				var po = document.createElement('script');
+				po.type = 'text/javascript';
+				po.async = true;
+				po.src = 'https://apis.google.com/js/platform.js';
+				var s = document.getElementsByTagName('script')[0];
+				s.parentNode.insertBefore(po, s);
+			})(); 
+
+			//Twitter
+			! function(d, s, id) {
+				var js, fjs = d.getElementsByTagName(s)[0];
+				if (!d.getElementById(id)) {
+					js = d.createElement(s);
+					js.id = id;
+					js.src = "https://platform.twitter.com/widgets.js";
+					fjs.parentNode.insertBefore(js, fjs);
+				}
+			}(document, "script", "twitter-wjs"); 
+		</script>
+	</body>
+</html>
 

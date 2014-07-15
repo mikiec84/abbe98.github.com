@@ -2,6 +2,7 @@ pygments: true
 name: "Blog"
 permalink: /blog/:year/:month/:day/:title
 markdown: kramdown
-
+paginate: 4
+baseurl: /blog/
 gems:
   - jekyll-sitemap

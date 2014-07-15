@@ -23,6 +23,7 @@ I do now that there is tons of small AJAX libraries in the wild, but not to many
 Say hello to `AWW.ajax()`, `AWW.get()` and `AWW.post()`.
 
 Simple example:
+
 <pre class="line-numbers"><code class="language-javascript">AWW.ajax({
   url: "http://filltext.com/?rows=10&business={business}&location={city}&pretty=true",
   success: function(data) {
@@ -32,6 +33,7 @@ Simple example:
 </code></pre>
 
 WebWorker example:
+
 <pre class="line-numbers"><code class="language-javascript">importScripts('../../aww.js');
 
 getData();

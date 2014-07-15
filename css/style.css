@@ -189,6 +189,15 @@ li.archive, ul.archive {
 	padding: 0px;
 }
 
+/* Custom Prism styles
+ ========================================================================== */
+
+pre.line-numbers {
+	padding-bottom: 5px;
+	padding-top: 5px;
+	margin: 0;
+}
+
 /* Small screen adjustments
  ========================================================================== */
 

@@ -49,15 +49,15 @@ image: http://abbe98.github.io/assets/default.png
 		{% if paginator.next_page %}
 			<a class="pagination-item" href="{{ site.baseurl }}page{{paginator.next_page}}">Older</a>
 		{% else %}
-			<a class="pagination-item" href="{{ site.baseurl }}" disabled>Older</a>
+			<span class="pagination-item">Older</span>
 		{% endif %}
 		{% if paginator.previous_page %}
 			{% if paginator.page == 2 %}
 				<a class="pagination-item" href="{{ site.baseurl }}">Newer</a>
-			{% else %} +				<a class="pagination-item" href="{{ site.baseurl }}page{{paginator.previous_page}}">Newer</a>
+			{% else %} <a class="pagination-item" href="{{ site.baseurl }}page{{paginator.previous_page}}">Newer</a>
 			{% endif %}
 		{% else %}
-			<a class="pagination-item" href="{{ site.baseurl }}" disabled>Newer</a>
+			<span class="pagination-item">Newer</span>
 		{% endif %}
 		</div>
 		<footer>

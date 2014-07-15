@@ -25,7 +25,7 @@ image: http://abbe98.github.io/assets/default.png
 			<a href="http://abbe98.github.io/blog/"><img alt="Back to the blog" src="http://abbe98.github.io/assets/default.png"></a>
 			<h1>Abbe</h1>
 		</header>
-			{% for post in site.posts limit: 5 %}
+			{% for post in paginator.posts %}
 		<article class="post">
 			<h2><a href="{{ post.url }}" title="{{ post.title | xml_escape }}">{{ post.title }}</a></h2>
 			<small class="date">
@@ -45,6 +45,22 @@ image: http://abbe98.github.io/assets/default.png
 			{{ post.content }}
 		</article>
 		{% endfor %}
+		<div class="pagination">
+		{% if paginator.next_page %}
+			<a class="pagination-item" href="{{ site.baseurl }}page{{paginator.next_page}}">Older</a>
+		{% else %}
+			<a class="pagination-item" href="{{ site.baseurl }}page{{paginator.next_page}}" disabled>Older</a>
+		{% endif %}
+		{% if paginator.previous_page %}
+			{% if paginator.page == 2 %}
+				<a class="pagination-item" href="{{ site.baseurl }}">Newer</a>
+			{% else %}
+				<a class="pagination-item" href="{{ site.baseurl }}page{{paginator.previous_page}}">Newer</a>
+			{% endif %}
+		{% else %}
+			<a class="pagination-item" href="{{ site.baseurl }}page{{paginator.previous_page}}" disabled>Newer</a>
+		{% endif %}
+		</div>
 		<footer>
 			<p>Copyright <a href="https://plus.google.com/117416771865902932932">Albin Larsson</a> 2013-2014 • <a href="http://abbe98.github.io/archive.html">Archive</a> • Background by <a href="http://www.marcbanderson.com">Marc Anderson</a> • <a href="http://abbe98.github.io/blog/atom.xml">RSS</a></p>
 		</footer>

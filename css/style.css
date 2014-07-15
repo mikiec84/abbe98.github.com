@@ -154,7 +154,7 @@ pre {
 	display: block;
 	padding: 1rem;
 	line-height: 50px;
-	background-color: #C3FF68;
+	background-color: #78FF69;
 	color: #333;
 	font: 17px/1.7 Helvetica, Arial, sans-serif;
 	font-weight: 600;
@@ -163,21 +163,16 @@ pre {
 	box-sizing: border-box;
 }
 
-.pagination-item:first-child {
-	border-radius: 5px 0px 0px 5px;
-}
-
-.pagination-item:last-child {
-	border-radius: 0px 5px 5px 0px;
-}
-
-span.pagination-item{
-	color: #737373;
-}
-
 .pagination-item:focus, .pagination-item:active, .pagination-item:hover {
 	color: #333;
+	background-color: #C3FF68;
+}
+
+.pagination-item[disabled]:focus, .pagination-item[disabled]:active, .pagination-item[disabled]:hover {
+	color: #333;
 	background-color: #78FF69;
+	pointer-events: none;
+	text-decoration: none;
 }
 
 /* Archive

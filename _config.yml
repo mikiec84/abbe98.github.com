@@ -3,6 +3,7 @@ name: "Blog"
 permalink: /blog/:year/:month/:day/:title
 markdown: kramdown
 paginate: 4
+paginate_path: "page:num"
 baseurl: /blog/
 gems:
   - jekyll-sitemap

@@ -1,20 +1,45 @@
 ---
-layout: default
+layout: nil
 title: Archive
 description: Archive for posts at abbe98.github.io
 image: http://abbe98.github.io/assets/default.png
 ---
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset='utf-8' />
+		<meta id="viewport" name="viewport" content ="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+		<meta name="google-site-verification" content="ggbSb9CvyxZ8PpDwiViwiTeoswb37GKsWGMr7a6Nzew"/>
+		<title>{{ page.title }}</title>
 
-<div class="post">
-	<h1>Archive</h1>
-	<ul class="archive">
-		{% for post in site.posts %}
-		<li class="archive">
-			<span>{{ post.date | date: '%d %B %Y' }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a>
-		</li>
-		{% endfor %}
-	</ul>
-</div>
-<a href="http://abbe98.github.io" class="btn">
-	Home
-</a>
+		<meta name="description" content="{{ page.description }}"/>
+		<meta property="og:image" content="{{ page.image }}"/>
+		<meta property="og:description" content="{{ page.description }}"/>
+
+		<link rel="alternate" type="application/rss+xml" href="http://abbe98.github.io/blog/atom.xml" title="Abbes Blog"/>
+		<link rel="icon" href="/favicon.ico" type="shortcut icon"/>
+		<link rel="stylesheet" href="/css/style.css"/>
+	</head>
+	<body>
+		<header>
+			<a href="http://abbe98.github.io/blog/"><img alt="Back to the blog" src="http://abbe98.github.io/assets/default.png"></a>
+			<h1>Abbe</h1>
+		</header>
+		<div class="post">
+			<h1>Archive</h1>
+			<ul class="archive">
+				{% for post in site.posts %}
+				<li class="archive">
+					<span>{{ post.date | date: '%d %B %Y' }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a>
+				</li>
+				{% endfor %}
+			</ul>
+		</div>
+		<a href="http://abbe98.github.io" class="btn">
+			Home
+		</a>
+		<footer>
+			<p>Copyright <a href="https://plus.google.com/117416771865902932932">Albin Larsson</a> 2013-2014 • <a href="http://abbe98.github.io/archive.html">Archive</a> • Background by <a href="http://www.marcbanderson.com">Marc Anderson</a> • <a href="http://abbe98.github.io/blog/atom.xml">RSS</a></p>
+		</footer>
+	</body>
+</html>

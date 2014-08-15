@@ -11,7 +11,7 @@ You already know what I did next.
 
 I do now that there is tons of small AJAX libraries in the wild, but not to many that's below two kb in size, works with WebWorkers and most important made by me ;-)
 
-##AWW
+###AWW
 *Minimal AJAX requests for WebWorker usage.*
 
  - <2kb compressed 

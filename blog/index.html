@@ -1,7 +1,7 @@
 ---
 layout: nil
-title: Abbes Blog
-description: Albin Larssons blog about web development, open data web accessibility and maps.
+title: Blog
+description: Albin Larssons blog about web development, open data, web accessibility and maps.
 image: http://abbe98.github.io/assets/default.png
 ---
 <!DOCTYPE html>
@@ -22,8 +22,7 @@ image: http://abbe98.github.io/assets/default.png
 	</head>
 	<body>
 		<header>
-			<a href="http://abbe98.github.io/blog/"><img alt="Back to the blog" src="http://abbe98.github.io/assets/default.png"></a>
-			<h1>Abbe</h1>
+			<a href="http://abbe98.github.io/blog/"><img alt="A nice looking logo that can take you here." src="http://abbe98.github.io/assets/default.png"></a>
 		</header>
 			{% for post in paginator.posts %}
 		<article class="post">
@@ -49,7 +48,7 @@ image: http://abbe98.github.io/assets/default.png
 		{% if paginator.next_page %}
 			<a class="pagination-item" href="{{ site.baseurl }}page{{paginator.next_page}}">Older</a>
 		{% else %}
-			<span class="pagination-item">Older</span>
+			<span class="pagination-item" aria-hidden="true">Older</span>
 		{% endif %}
 		{% if paginator.previous_page %}
 			{% if paginator.page == 2 %}
@@ -57,11 +56,11 @@ image: http://abbe98.github.io/assets/default.png
 			{% else %} <a class="pagination-item" href="{{ site.baseurl }}page{{paginator.previous_page}}">Newer</a>
 			{% endif %}
 		{% else %}
-			<span class="pagination-item">Newer</span>
+			<span class="pagination-item" aria-hidden="true">Newer</span>
 		{% endif %}
 		</div>
 		<footer>
-			<p>Copyright <a href="https://plus.google.com/117416771865902932932">Albin Larsson</a> 2013-2014 • <a href="http://abbe98.github.io/archive.html">Archive</a> • Background by <a href="http://www.marcbanderson.com">Marc Anderson</a> • <a href="http://abbe98.github.io/blog/atom.xml">RSS</a></p>
+			<p>Copyright <a href="https://plus.google.com/117416771865902932932">Albin Larsson</a> 2013-2014 • <a href="http://abbe98.github.io/archive.html">Archive</a> • <a href="http://abbe98.github.io/blog/atom.xml">RSS</a></p>
 		</footer>
 
 		<script src="/js/prism.js"></script>

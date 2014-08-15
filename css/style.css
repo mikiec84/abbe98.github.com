@@ -1,201 +1,151 @@
+html * {
+  -webkit-transition: .5s;
+  -moz-transition: .5s;
+  transition: .5s;
+}
+
 html {
-	font: 14px/1.4 Helvetica, Arial, sans-serif;
-	color: #333;
-	-webkit-text-size-adjust: 100%;
-	-ms-text-size-adjust: 100%;
+  font: 14px/1.4 Helvetica, Arial, sans-serif;
+  color: #333;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
 }
 
 body {
-	max-width: 940px;
-	margin: 0 auto;
-	background-image: url('subway-lines.png');
+  max-width: 940px;
+  margin: 0 auto;
 }
 
 img {
-	border: 0;
-}
-
-/* btn
- ========================================================================== */
-
-.btn {
-	display: block;
-	height: 35px;
-	width: 200px;
-	line-height: 50px;
-	background-color: #78FF69;
-	color: #333;
-	font: 17px/1.7 Helvetica, Arial, sans-serif;
-	font-weight: 600;
-	text-align: center;
-	padding-top: 5px;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-.btn:hover, .btn:active, .btn:focus {
-	color: #333;
-	background-color: #C3FF68;
+  border: 0;
 }
 
 /* Links
  ========================================================================== */
 
 a {
-	color: #FFAC26;
-	text-decoration: none;
+  color: #000;
+  text-decoration: none;
 }
 
 a:hover, a:focus, a:active {
-	color: #FF9D00;
-	text-decoration: underline;
+  color: #63615E;
+  text-decoration: underline;
 }
 
 /* Header
  ========================================================================== */
 
 header {
-	height: 3.5em;
-}
-
-header h1 {
-	font-size: 3em;
-	margin: 0;
+  height: 50px;
+  text-align: center;
 }
 
 header img {
-	height: 3em;
-	float: left;
-	padding-right: 5px;
+  height: 60px;
+  margin: 5px 0px 5px 0px;
 }
 
 /* Footer
  ========================================================================== */
 
 footer p {
-	text-align: center;
+  text-align: center;
 }
 
 /* Typography
  ========================================================================== */
 
 h1 {
-	margin: 0 0 0.25em;
-	font-size: 2em;
+  margin: 0 0 0.25em;
+  	font-size: 2em;
 }
 
 h2 {
-	margin: 0px;
-	font-size: 1.25em;
+  margin: 0;
+  font-size: 1.5em;
+  text-align: center;
 }
 
 h3 {
-	font-size: 1.125em;
-	color: #777;
-	margin: 0 0 10px;
+  font-size: 1.125em;
+  margin: 0 0 10px;
 }
 
-/* Posts
+/* Post
  ========================================================================== */
 
 .post {
-	position: relative;
-	display: block;
-	padding: 5px;
-	border: 4px solid #C3FF68;
-	text-decoration: none;
-	background: rgb(247, 240, 240);
-	margin-bottom: 8px;
-	font: 17px/1.7 Helvetica, Arial, sans-serif;
+  margin-bottom: 8px;
+  font: 17px/1.7 Helvetica, Arial, sans-serif;
 }
 
 .post a {
-	text-decoration: underline;
+  text-decoration: underline;
 }
 
 .date {
-	font: 14px/1.4 Helvetica,Arial,sans-serif;
-	margin-top: 2px;
-	margin-bottom: 2px;
+  display: block;
+  text-align: center;
 }
 
 .share {
-	width: 100%;
-	border-top: 2px solid #C3FF68;
-	border-bottom: 2px solid #C3FF68;
-	height: 25px;
-	padding-top: 3px;
-	margin-bottom: 3px;
+  width: 100%;
+  border-top: 2px solid #333;
+  border-bottom: 2px solid #333;
+  height: 25px;
+  padding-top: 3px;
+  margin-bottom: 3px;
 }
 
 .post img {
-	max-width: 100%;
+  max-width: 100%;
 }
 
 pre {
-	display: block;
-	word-break: break-all;
-	word-wrap: break-word;
-	white-space: pre-wrap;
+  display: block;
+  word-break: break-all;
+  word-wrap: break-word;
+  white-space: pre-wrap;
 }
 
 /* Pagination
  ========================================================================== */
 
 .pagination {
-	text-align: center;
-	width: 100%;
-	height: 35px;
+  text-align: center;
+  font: 17px/1.7 Helvetica, Arial, sans-serif;
+  font-weight: 600;
 }
 
 .pagination-item {
-	float: left;
-	width: 50%;
-	display: block;
-	padding: 1rem;
-	line-height: 50px;
-	background-color: #C3FF68;
-	color: #333;
-	font: 17px/1.7 Helvetica, Arial, sans-serif;
-	font-weight: 600;
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
-}
-
-.pagination-item:first-child {
-	border-radius: 5px 0px 0px 5px;
-}
-
-.pagination-item:last-child {
-	border-radius: 0px 5px 5px 0px;
+  display: inline-block;
+  color: #333;
 }
 
 span.pagination-item, span.pagination-item:hover {
-	color: #737373;
-	background-color: #C3FF68;
+  color: #737373;
 }
 
 .pagination-item:focus, .pagination-item:active, .pagination-item:hover {
-	color: #333;
-	background-color: #78FF69;
+  color: #333;
 }
 
 /* Archive
  ========================================================================== */
 
 li.archive, ul.archive {
-	list-style: none;
-	padding: 0px;
+  list-style: none;
+  padding: 0px;
 }
 
 /* Custom Prism styles
  ========================================================================== */
 
 pre.line-numbers {
-	padding-bottom: 5px;
-	padding-top: 5px;
-	margin: 0;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  margin: 0;
 }
 
 /* Small screen adjustments
@@ -203,36 +153,36 @@ pre.line-numbers {
 
 @media (max-width: 960px) {
 
-	body {
-		max-width: 620px;
-	}
+  body {
+  	max-width: 620px;
+  }
 
 }
 
 @media (max-width: 640px) {
 
-	body {
-		max-width: 300px;
-	}
-	
-	.archive a:before {
-		content: "\A";
-		white-space: pre;
-	}
+  body {
+    max-width: 300px;
+  }
+
+  .archive a:before {
+    content: "\A";
+    white-space: pre;
+  }
 
 }
 
 /* Scrollbar
  ========================================================================== */
 ::-webkit-scrollbar {
-    -webkit-appearance: none;
-    height: 7px;
+  -webkit-appearance: none;
+  height: 7px;
 }
 
 ::-webkit-scrollbar-thumb {
-    background-color: #C3FF68;
+  background-color: #eee;
 }
 
 ::-webkit-scrollbar-track {
-	background-color: #EEE;
+  background-color: #fff;
 }

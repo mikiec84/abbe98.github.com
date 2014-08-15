@@ -28,7 +28,9 @@ a {
   text-decoration: none;
 }
 
-a:hover, a:focus, a:active {
+a:hover,
+a:focus,
+a:active {
   color: #63615E;
   text-decoration: underline;
 }
@@ -36,14 +38,34 @@ a:hover, a:focus, a:active {
 /* Header
  ========================================================================== */
 
+@keyframes logo {
+  25% {
+    transform: scale(1.1);
+  }
+
+  75% {
+    transform: scale(0.9);
+  }
+}
+
 header {
-  height: 50px;
+  height: 80px;
   text-align: center;
+  transform: translateZ(0);
 }
 
 header img {
-  height: 60px;
-  margin: 5px 0px 5px 0px;
+  height: 70px;
+  margin-top: 10px;
+}
+
+header img:hover,
+header img:focus,
+header img:active {
+  animation-name: logo;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
 }
 
 /* Footer
@@ -123,18 +145,22 @@ pre {
   color: #333;
 }
 
-span.pagination-item, span.pagination-item:hover {
+span.pagination-item,
+span.pagination-item:hover {
   color: #737373;
 }
 
-.pagination-item:focus, .pagination-item:active, .pagination-item:hover {
+.pagination-item:focus,
+.pagination-item:active,
+.pagination-item:hover {
   color: #333;
 }
 
 /* Archive
  ========================================================================== */
 
-li.archive, ul.archive {
+li.archive,
+ul.archive {
   list-style: none;
   padding: 0px;
 }

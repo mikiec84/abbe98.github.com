@@ -48,10 +48,32 @@ a:active {
   }
 }
 
+@-webkit-keyframes logo {
+  25% {
+    -webkit-transform: scale(1.1);
+  }
+
+  75% {
+    -webkit-transform: scale(0.9);
+  }
+}
+
+@-moz-keyframes logo {
+  25% {
+    -moz-transform: scale(1.1);
+  }
+
+  75% {
+    -moz-transform: scale(0.9);
+  }
+}
+
 header {
   height: 80px;
   text-align: center;
   transform: translateZ(0);
+  -webkit-transform: translateZ(0);
+  -moz-transform: translateZ(0);
 }
 
 header img {
@@ -66,6 +88,14 @@ header img:active {
   animation-duration: 1s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
+  -webkit-animation-name: logo;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-name: logo;
+  -moz-animation-duration: 1s;
+  -moz-animation-timing-function: linear;
+  -moz-animation-iteration-count: infinite;
 }
 
 /* Footer

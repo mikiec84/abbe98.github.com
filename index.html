@@ -8,169 +8,124 @@ layout: nil
 		<meta charset="UTF-8">
 		<meta id="viewport" name="viewport" content ="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
 
-		<meta name="google-site-verification" content="ggbSb9CvyxZ8PpDwiViwiTeoswb37GKsWGMr7a6Nzew"/>
 		<meta property="og:image" content="http://abbe98.github.io/assets/default.png"/>
 		<meta name="description" content="Albin Larssons site about web development, open data web accessibility and maps."/>
 
 		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
-		<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.2/leaflet.css"/>
-		<link href='http://fonts.googleapis.com/css?family=Alegreya+Sans+SC' rel='stylesheet' type='text/css'/>
-
+		<link rel="stylesheet" href="css/style.css"/>
 		<style>
-			html, body, #map {
-				margin: 0;
-				 width: 100%;
-				height: 100%;
-				font-family: 'Alegreya Sans SC', sans-serif;
+			html {
+				font: 14px/1.4 Helvetica, Arial, sans-serif;
+				color: #333;
+				-webkit-text-size-adjust: 100%;
+				-ms-text-size-adjust: 100%;
 			}
 
-			.leaflet-container {
-				cursor: default;
-				z-index: -10;
+			body {
+				margin: auto;
 			}
 
-			.wrapper {
-				position: absolute;
-				left: 0;
-				width: 320px;
-				text-align: center;
-				top: 45%;
-				left: 50%;
-				margin-left: -160px;
-				margin-top: -160px;
-				border-radius: 5px;
-				background: #fff;
-				opacity: 0.6;
-				z-index: 1;
-				-webkit-user-select: none;
-				-moz-user-select: none;
-				user-select: none;
-			}
-
-			canvas {
-				position: absolute;
-				top: 0;
-				left: 0;
-				z-index: 0;
+			header {
+				height: auto;
 				width: 100%;
-				height: 100%;
-				pointer-events: none;
+				text-align: center;
+				font-size: 16px;
 			}
 
-			p {
-				font-size: 14px;
-				line-height: 2em;
-				margin: 0;
-				letter-spacing: 2px;
+			h1 {
+				font-size: 2.5em;
+				margin-bottom: 20px;
 			}
 
-			a {
-				-webkit-transition: all 0.2s linear;
-				-moz-transition: all 0.2s linear;
-				-o-transition: all 0.2s linear;
-				transition: all 0.2s linear;
-				text-decoration: none;
-				color: #000;
-				border-radius: 5px;
-				padding: 5px;
+			section {
+				width: 100%;
+				height: auto;
+				margin: 20px;
 			}
 
-			a:hover {
-				opacity: 1;
+			section img {
+				width: 25%;
+				margin-left: 12%;
 			}
 
-			.last {
-				margin-bottom: 14px;
+			section div {
+				width: 50%;
+				float: right;
+				margin-right: 11%;
 			}
 
-			.blog:hover {
-				background: #C3FF68;
+			section .low-text {
+				margin-top: 5%;
 			}
 
-			.google:hover {
-				background: #DD4B39;
-			}
+			@media (max-width: 960px) {
+				section img {
+					display: block;
+					width: 50%;
+					margin: auto;
+				}
 
-			.twitter:hover {
-				background:  #4099FF;
-			}
+				section div {
+					float: none;
+					text-align: center;
+					margin: auto;
+					width: 100%;
+				}
 
-		.somewhere:hover {
-				background: #2A3A52; /*14263E*/
+				@media (max-width: 530px) {
+					section img {
+						width: 80%;
+					}
+				}
 			}
 		</style>
 	</head>
 	<body>
-		<div class="wrapper">
-			<h1>Albin Larsson</h1>
-			<p><a class="blog" href="/blog">Blog</a></p>
-			<p><a class="google" href="https://plus.google.com/117416771865902932932">Google+</a></p>
-			<p><a class="twitter" href="https://twitter.com/AlbinPCLarsson">Twitter</a></p>
-			<p class="last"><a class="somewhere" href="https://www.somewhere.com/abbe">Somewhere</a></p>
-		</div>
-		<div id="map"></div>
-		<canvas></canvas>
-		<script src="http://cdn.leafletjs.com/leaflet-0.7.2/leaflet.js"></script>
-		<script>
-			var map = L.map('map', {
-				center: [59.0781, 16.3757],
-				zoom: 18,
-				maxZoom: 18,
-				minZoom: 18,
-				dragging: false,
-				zoomControl: false
-			});
-
-			L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-				attribution: 'Map data &copy; <a href="http://openstr">OpenStreetMap</a> contributors.'
-			}).addTo(map);
-		</script>
-
-	<script>
-			document.addEventListener('touchmove', function (e) {
-				e.preventDefault()
-			})
-			var c = document.getElementsByTagName('canvas')[0],
-				x = c.getContext('2d'),
-				pr = window.devicePixelRatio || 1,
-				w = window.innerWidth,
-				h = window.innerHeight,
-				f = 90,
-				q,
-				m = Math,
-				r = 0,
-				u = m.PI*2,
-				v = m.cos,
-				z = m.random
-				c.width = w*pr
-				c.height = h*pr
-				x.scale(pr, pr)
-				x.globalAlpha = 0.6
-			function i(){
-				x.clearRect(0,0,w,h)
-				q=[{x:0,y:h*.7+f},{x:0,y:h*.7-f}]
-				while(q[1].x<w+f) d(q[0], q[1])
-			}
-			function d(i,j){   
-				x.beginPath()
-				x.moveTo(i.x, i.y)
-				x.lineTo(j.x, j.y)
-				var k = j.x + (z()*2-0.25)*f,
-				n = y(j.y)
-				x.lineTo(k, n)
-				x.closePath()
-				x.fillStyle = '#F76D22'.toString(16)
-				x.fill()
-				q[0] = q[1]
-				q[1] = {x:k,y:n}
-			}
-			function y(p){
-				var t = p + (z()*2-1.1)*f
-				return (t>h||t<0) ? y(p) : t
-			}
-			document.onclick = i
-			document.ontouchstart = i
-			i()
-	</script>
+	<header>
+		<img alt="A nice looking logo that can take you here." src="assets/default.png">
+		<h1>Albin Larsson</h1>
+		<p><strong>Orienteering, Open Data, Code !== false</strong></p>
+	</header>
+	<main>
+		<section>
+			<img src="assets/default.png" alt="My blog/site logo.">
+			<div class="low-text">
+				<h2><a href="abbe98.github.io/blog">Blog</a></h2>
+				<p>Read about all my projects, my deep thoughts about maps and open data or get some tips about great open data recurses.</p>
+			</div>
+		</section>
+		<section>
+			<img src="assets/github_logo.png" alt="The Github logo.">
+			<div class="low-text">
+				<h2><a href="https://github.com/Abbe98">Github</a></h2>
+				<p>Take a look at some source code in action at my Github profile.</p>
+			</div>
+		</section>
+		<section>
+			<img src="assets/osm_logo.svg" alt="The OpenStreetMap logo.">
+			<div class="low-text">
+				<h2><a href="https://www.openstreetmap.org/user/Abbe98">OpenStreetMap</a></h2>
+				<p>See the places I'm mapping, mostly around Nyköping and Katrineholm in Sweden but also many other places.</p>
+			</div>
+		</section>
+		<section>
+			<img src="assets/himlinge.jpg" alt="A photo from Himlinge.">
+			<div>
+				<h2>Himlinge</h2>
+				<p>The past years I have been living at the most beautiful place in the world. The small village Himlinge has a population of 15 people, 5 dogs, a couple of chickens, cats, horses and tons of cows. The village is located at a hill in a open landscape just north of the lake Kyrksjön.</p>
+			</div>
+		</section>
+		<section>
+			<img src="assets/omap.png" alt="A photo from Nyköping.">
+			<div>
+				<h2>Nyköping</h2>
+				<p>In August this fall I moved to Nyköping to continue my studies. My two main subjects is Technology and Special PE: Orienteering.
+				</p>
+			</div>
+		</section>
+	</main>
+	<footer>
+		<p>Copyright: Albin Larsson 2013-2014. Available at <a href="https://github.com/Abbe98/abbe98.github.com">Github</a>.</p>
+	</footer>
 	</body>
 </html>

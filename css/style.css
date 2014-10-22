@@ -108,7 +108,7 @@ footer p {
 
 h1 {
   margin: 0 0 0.25em;
-  	font-size: 2em;
+  font-size: 2em;
 }
 
 h2 {
@@ -164,7 +164,8 @@ h2 > a:focus:before {
   font: 17px/1.7 Helvetica, Arial, sans-serif;
 }
 
-.post a {
+.post a,
+:not(.post h2 a) {
   text-decoration: underline;
 }
 

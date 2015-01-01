@@ -4,7 +4,7 @@ layout: nil
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<meta charset='utf-8' />
+		<meta charset="utf-8" />
 		<meta id="viewport" name="viewport" content ="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
 		<meta name="google-site-verification" content="ggbSb9CvyxZ8PpDwiViwiTeoswb37GKsWGMr7a6Nzew"/>
 		<title>{{ page.title }}</title>
@@ -27,6 +27,11 @@ layout: nil
 			<div class="share">
 				<div class="g-plusone" data-size="medium"></div><a href="https://twitter.com/share" class="twitter-share-button" data-via="albinpclarsson" data-lang="en">Tweet</a>
 			</div>
+			<div id="disqus_thread"></div>
+			<noscript>
+				Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+			</noscript>
+			<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
 		</article>
 		<footer>
 			<p>Copyright <a href="https://plus.google.com/117416771865902932932">Albin Larsson</a> 2013-2015 • <a href="http://abbe98.github.io/archive.html">Archive</a> • <a href="http://abbe98.github.io/blog/atom.xml">RSS</a></p>
@@ -35,6 +40,19 @@ layout: nil
 		<script src="/js/prism.js"></script>
 		<link rel="stylesheet" href="/css/prism.css"/>
 		<script type="text/javascript">
+			//Disqus
+			var disqus_shortname = 'abbe';
+			var disqus_identifier = '{{ page.id }}';
+			var disqus_url = 'http://abbe98.github.io/blog{{ page.url }}';
+
+			(function() {
+				var dsq = document.createElement('script');
+				dsq.type = 'text/javascript';
+				dsq.async = true;
+				dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+				(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+			})();
+
 			//Google+
 			(function() {
 				var po = document.createElement('script');

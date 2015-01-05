@@ -1,6 +1,6 @@
 ---
 layout: post
-title: OpenStreetMAp CLC06 Import Cleanup
+title: OpenStreetMap CLC06 Import Cleanup
 description: The CLC06 import made in 2006 hurts the OSM ecosystem.
 image: http://abbe98.github.io/assets/ways-relations.jpg
 ---

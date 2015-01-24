@@ -7,7 +7,7 @@ image: http://abbe98.github.io/assets/default.png
 ###Orienteering
 
  - [Så här kan man sälja orienteringskartor](https://jonas106.wordpress.com/2015/01/21/sa-har-kan-man-salja-orienteringskartor/) - Using the "Hitta Orientering" project to sell orienteering maps(Swedish).
- - [Så använder man Karttapullautin](https://jonas106.wordpress.com/2012/11/12/sa-anvander-man-karttapullautin/) - Karttapullautin one of the best tools to generate orienteering maps and a project that's always is in need of more introduction(Swedish).
+ - [Så använder man Karttapullautin](https://jonas106.wordpress.com/2012/11/12/sa-anvander-man-karttapullautin/) - Karttapullautin one of the best tools to generate orienteering maps and a project that always is in need of more introduction(Swedish).
 
 ###The Web
 

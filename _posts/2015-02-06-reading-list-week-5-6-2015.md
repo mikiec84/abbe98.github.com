@@ -15,7 +15,7 @@ image: http://abbe98.github.io/assets/default.png
 
 ###Maps
 
- - [TileStache: Generate [Topo|Geo]JSON Vector Tiles](http://mattmakesmaps.com/blog/2013/10/09/tilestache-rendering-topojson/) - Just what I was looking after for my latest project: Vector Map Time Slider.
+ - [TileStache, Generate [Topo|Geo]JSON Vector Tiles](http://mattmakesmaps.com/blog/2013/10/09/tilestache-rendering-topojson/) - Just what I was looking after for my latest project: Vector Map Time Slider.
  - [QGIS 2.6 på Svenska](https://geosupportsystem.wordpress.com/2014/12/29/qgis-2-6-pa-svenska-ladda-hem-gratis/) - It's time for me to learn QGIS. Anyone knows a great updated book in English?
 
 ###Watched

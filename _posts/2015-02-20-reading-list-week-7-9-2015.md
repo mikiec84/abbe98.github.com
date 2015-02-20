@@ -24,7 +24,7 @@ image: http://abbe98.github.io/assets/himlinge2.JPG
 ###Maps
 
  - [Formge Lantm&auml;teriets data med CartoCSS](http://hkartor.se/2014/formge-lantmateriets-data-med-cartocss/) - working with text labels in TileMill(Swedish).
- - [GSD-H&olum;jddata, Grid 50+](http://www.lantmateriet.se/en/Maps-and-geographic-information/Elevation-data-/GSD-Hojddata-grid-50-/) - the old height dataset(+-2 meter) for Sweden is going open data this summer!
+ - [GSD-H&ouml;jddata, Grid 50+](http://www.lantmateriet.se/en/Maps-and-geographic-information/Elevation-data-/GSD-Hojddata-grid-50-/) - the old height dataset(+-2 meter) for Sweden is going open data this summer!
  - [Routing on Openstreetmap.org](https://blog.openstreetmap.org/2015/02/16/routing-on-openstreetmap-org/) - routing is now available directly on the OpenStreetMap homepage.
 
 ###Other Reading

@@ -261,8 +261,23 @@ pre.line-numbers {
 
 }
 
+/* Print
+ ========================================================================== */
+
+@media print {
+  @page {
+    margin: 0.5cm;
+  }
+
+  .print-hidden {
+    display: none;
+  }
+
+}
+
 /* Scrollbar
  ========================================================================== */
+
 ::-webkit-scrollbar {
   -webkit-appearance: none;
   height: 7px;

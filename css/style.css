@@ -156,6 +156,12 @@ h2 > a:focus:before {
   transform: scaleX(1);
 }
 
+code:not([class*="language-"]) {
+  background: #eee;
+  border-radius: 3px;
+  white-space: pre;
+}
+
 /* Post
  ========================================================================== */
 

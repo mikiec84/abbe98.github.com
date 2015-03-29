@@ -189,6 +189,10 @@ code:not([class*="language-"]) {
   margin-bottom: 3px;
 }
 
+.share .fb-like {
+  bottom: 9px;
+}
+
 .post img {
   max-width: 100%;
 }

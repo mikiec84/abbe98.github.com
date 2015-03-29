@@ -4,7 +4,9 @@ title: Mapping the Past with Linked Data in OpenHistoricalMap
 description: OpenHistoricalMap is a great place, for open linked data, it has some advantages over other data platforms and some disadvantages.
 image: http://abbe98.github.io/assets/himlinge-sunset.jpg
 ---
-OpenHistoricalMap is a great place for open linked data, it has some advantages over other data platforms and some disadvantages as any data platform.
+**Extended 2015/03/29**
+
+OpenHistoricalMap is a great place for open linked data, it has some advantages over other data platforms and some disadvantages. 
 
 The main advantage is that the OpenStreetMap(/OpenHistoricalMap) platform is open enough to be **extensible for all other open platforms** and even closed ones.
 
@@ -85,3 +87,37 @@ Related reading over at the OpenStreetMap Wiki:
  - [Namespace](https://wiki.openstreetmap.org/wiki/Namespace)
 
 I'm only saying that this is how I do linked data in OpenHistoricalMap feedback and criticism is loved.  Will document everything over at the Wiki in the coming week.
+
+###Extended
+
+**This part was first published at the OpenHistoricalMap mailing list. It might contain duplicate information.**
+
+####ohm:
+
+This is to make sure that it never gets confused with tags in OSM, I think all custom tags should have this namespace. OHM uses the same software as OSM for APIs, database, even frontend there for we should protect each project. We using the same editing software, data will end up in the wrong place... But yes it could be removed.
+
+####uri:
+
+A relation using this approach will always be a URI, also it makes sense to have all relations under at least one common tag. But it could be removed, but it would be easier to query with a common uri tag...
+
+####relation:
+
+This one is the core, I made up a few, that would make sense for OHM. This one can't be removed(and we have no reason to do so).
+
+####platform:
+
+To get/parse data we need to know what it looks like, different platforms has different APIs and data models. The sooner we tell the developers what platform they should query for a specific relation the better. Just a URI does not make sense as many URIs are just id numbers.
+
+####format:
+
+Sending a HTTP request to a URL would give us the format but lets say that an object in OHM has 200 URLs linked. Would we send 200 HTTP requests to get the format so we could see which ones we can support? Some URL formats would tell us the format(`http://kulturarvsdata.se/shm/object/xml/974121`is xml), but not all does... 
+
+It's about both be nice to developers and mappers, this approach can be used by both. 
+
+Platform specific RDF namespaces such as EDM would work for platforms that are big with linked data, such as SOCH, but for all other platforms? Having one solution working for all platforms is a advantage.
+
+We should of curse care about RDF and platform specific RDF namespaces, but the way to do it is maybe through middleman libraries/services(LdRequest->requestParsing->Overpass->RdfParsing->RdfResponse)? This way we could support common LD platforms and non LD ones. such a service could be self hosted or available as a API.
+
+The relation/platforms/format should be documented, and such documentation could be available in RDF format(and any other LD format). It would even be a great idea to set up a OHM RDF namespace to be able to provide RDF output.
+
+OHM can't wait for all other platforms to do linked data, this approach allows OHM to do linked data now with any open platform.

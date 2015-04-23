@@ -19,14 +19,11 @@ image: http://abbe98.github.io/assets/default.png
 		<link rel="alternate" type="application/rss+xml" href="http://abbe98.github.io/blog/atom.xml" title="Abbes Blog"/>
 		<link rel="icon" href="/favicon.ico" type="shortcut icon"/>
 		<link rel="stylesheet" href="/css/style.css"/>
-		{% if paginator.next_page %}
-			<link rel="next" href="{{ site.baseurl }}page{{paginator.next_page}}"/>
+		{% if paginator.next_page %}		<link rel="next" href="{{ site.baseurl }}page{{paginator.next_page}}"/>
 		{% endif %}
 		{% if paginator.previous_page %}
-			{% if paginator.page == 2 %}
-				<link rel="prev" href="{{ site.baseurl }}"/>
-			{% else %}
-				<link rel="prev" href="{{ site.baseurl }}page{{paginator.previous_page}}"/>
+			{% if paginator.page == 2 %}		<link rel="prev" href="{{ site.baseurl }}"/>
+			{% else %}		<link rel="prev" href="{{ site.baseurl }}page{{paginator.previous_page}}"/>
 			{% endif %}
 		{% endif %}
 	</head>

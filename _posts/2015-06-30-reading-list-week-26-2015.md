@@ -22,3 +22,5 @@ image: http://abbe98.github.io/assets/flower.JPG
  - [Inceptionism Going Deeper into Neural Networks](http://googleresearch.blogspot.se/2015/06/inceptionism-going-deeper-into-neural.html) - Google are turning Neural Networks "inside-out".
  - [The Web of Alexandria (follow-up)](http://worrydream.com/TheWebOfAlexandria/2.html) - the web is maybe the wrong place for ALL communications?
  - [Stalking Your Friends with Facebook Messenger](https://medium.com/faith-and-future/stalking-your-friends-with-facebook-messenger-9da8820bd27d) - don't be pissed-off you knew they knew and it's cool.
+
+![Just a beautiful flower](assets/flower.JPG)

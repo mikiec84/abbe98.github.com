@@ -195,7 +195,7 @@ code:not([class*="language-"]) {
 }
 
 .share #twitter-widget-0 {
-  width: 81px;
+  width: 81px !important;
 }
 
 .share .fb-like {

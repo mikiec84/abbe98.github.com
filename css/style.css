@@ -189,6 +189,15 @@ code:not([class*="language-"]) {
   margin-bottom: 3px;
 }
 
+.share #___plusone_0,
+.share .g-plusone {
+  max-width: 60px;
+}
+
+.share #twitter-widget-0 {
+  width: 81px;
+}
+
 .share .fb-like {
   bottom: 9px;
 }

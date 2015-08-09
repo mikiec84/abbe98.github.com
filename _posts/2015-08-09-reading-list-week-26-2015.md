@@ -34,4 +34,5 @@ image: http://abbe98.github.io/assets/himlinge.png
  - [Doing Terrible Things To Your Code](http://blog.codinghorror.com/doing-terrible-things-to-your-code/)
 
 ![picture of Orienteering maps for the visually impaired](https://pbs.twimg.com/media/CKnFEIUUcAAFE9A.jpg:large)
+
 Found at a map exhibition earlier this summer.

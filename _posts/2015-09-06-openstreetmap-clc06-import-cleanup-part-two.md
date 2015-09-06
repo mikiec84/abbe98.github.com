@@ -1,12 +1,13 @@
-[In January I proposed](http://abbe98.github.io/blog/2015/01/05/openstreetmap-clc06-import-cleanup/) cleaning up a lot of imported CLC06 data manually to preserve the OSM ecosystem. Mappers had a hard time working with the large multipolygons and tools such as Tilemill/Mapbox Studio/iD all had rendering issues. Because of those issues the multipolygons become even more broken by mappers trying to handle them.
-
 ---
 layout: post
 title: OpenStreetMap CLC06 Import Cleanup Part Two
 description: My work on cleaning up CLC06 data in OpenStreetMap is done for now.
 image: http://abbe98.github.io/assets/osm-ways-relations.jpg
 ---
+[In January I proposed](http://abbe98.github.io/blog/2015/01/05/openstreetmap-clc06-import-cleanup/) cleaning up a lot of imported CLC06 data manually to preserve the OSM ecosystem. Mappers had a hard time working with the large multipolygons and tools such as Tilemill/Mapbox Studio/iD all had rendering issues. Because of those issues the multipolygons become even more broken by mappers trying to handle them.
+
 The two main multipolygons had areas about 80x120KM.
+
 ![Overpass image over the multipolygons.](http://abbe98.github.io/assets/relations.jpg)
 
 ###Removed
@@ -17,7 +18,7 @@ I learned some more powerful Overpass queries and earlier this Sunday morning I 
 
 Imported CLC06 multipolygons, currently&#58;
 
-![overpass screenshot](http://abbe98.github.io/assets/osm-relations-jpg)
+![overpass screenshot](http://abbe98.github.io/assets/osm-relations.jpg)
 
 ###Ahead
 
@@ -25,6 +26,6 @@ OpenStreetMap lost tons of data as a result of my work, still I believe that the
 
 All the CLC06 relations and ways&#58;
 
-![overpass screenshot](http://abbe98.github.io/assets/osm-relations-jpg)
+![overpass screenshot](http://abbe98.github.io/assets/osm-ways-relations.jpg)
 
 As shown in the image above all easy edible such as small not broken multipolygons and areas is still in there, progressive updates of those objects will eventually make the underlying low quality import obsolete.

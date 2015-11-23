@@ -1,4 +1,3 @@
-
 ---
 layout: post
 title: Winning the Nordic Open Data Challenge

@@ -18,9 +18,8 @@ layout: nil
 		<link rel="stylesheet" href="/css/style.css"/>
 	</head>
 	<body>
-		<header>
-			<a href="http://abbe98.github.io/blog/"><img alt="Go back to the blog." src="http://abbe98.github.io/assets/default.png"></a>
-		</header>
+{% include menu.html %}
+		<h1>BLOG</h1>
 		<article class="post" >
 			<h2>{{ page.title }}</h2>
 			{{ content }}
@@ -34,7 +33,7 @@ layout: nil
 			<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
 		</article>
 		<footer>
-			<p>Copyright <a href="https://plus.google.com/117416771865902932932">Albin Larsson</a> 2013-2016 • <a href="http://abbe98.github.io/archive.html">Archive</a> • <a href="http://abbe98.github.io/blog/atom.xml">RSS</a></p>
+			<p>Copyright <a href="http://abbe98.github.io/">Albin Larsson</a> 2013-2016 • <a href="http://abbe98.github.io/archive.html">Archive</a> • <a href="http://abbe98.github.io/blog/atom.xml">RSS</a></p>
 		</footer>
 
 		<div id="fb-root"></div>
@@ -84,5 +83,6 @@ layout: nil
 				}
 			}(document, "script", "twitter-wjs");
 		</script>
+{% include global-javascript.html %}
 	</body>
 </html>

@@ -28,9 +28,8 @@ image: http://abbe98.github.io/assets/default.png
 		{% endif %}
 	</head>
 	<body>
-		<header>
-			<a href="http://abbe98.github.io/"><img alt="A nice looking logo that can take you to my start page." src="http://abbe98.github.io/assets/default.png"></a>
-		</header>
+{% include menu.html %}
+		<h1>BLOG</h1>
 			{% for post in paginator.posts %}
 		<article class="post">
 			<h2><a href="{{ post.url }}" title="{{ post.title | xml_escape }}">{{ post.title }}</a></h2>
@@ -67,10 +66,11 @@ image: http://abbe98.github.io/assets/default.png
 		{% endif %}
 		</div>
 		<footer>
-			<p>Copyright <a href="https://plus.google.com/117416771865902932932">Albin Larsson</a> 2013-2016 • <a href="http://abbe98.github.io/archive.html">Archive</a> • <a href="http://abbe98.github.io/blog/atom.xml">RSS</a></p>
+			<p>Copyright <a href="http://abbe98.github.io/">Albin Larsson</a> 2013-2016 • <a href="http://abbe98.github.io/archive.html">Archive</a> • <a href="http://abbe98.github.io/blog/atom.xml">RSS</a></p>
 		</footer>
 
 		<script src="/js/prism.js"></script>
 		<link rel="stylesheet" href="/css/prism.css"/>
+{% include global-javascript.html %}
 	</body>
 </html>

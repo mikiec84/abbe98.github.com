@@ -85,6 +85,7 @@ ul {
 .btn:focus {
   color: #333;
   background-color: #F7F7F2;
+  text-decoration: none;
   transition: .3s;
 }
 

@@ -31,7 +31,7 @@ image: http://abbe98.github.io/assets/default.png
 {% include menu.html %}
 		<h1>BLOG</h1>
 			{% for post in paginator.posts %}
-		<div class="container">
+		<div class="container" style="padding-top: 60px;">
 			<article class="post">
 				<h2><a href="{{ post.url }}" title="{{ post.title | xml_escape }}">{{ post.title }}</a></h2>
 				<small class="date">

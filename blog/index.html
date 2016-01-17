@@ -57,7 +57,7 @@ image: http://abbe98.github.io/assets/default.png
 			{% if paginator.next_page %}
 				<a class="btn" href="{{ site.baseurl }}page{{paginator.next_page}}">Older</a>
 			{% else %}
-				<span class="btn" aria-hidden="true">Older</span>
+				<span class="btn" aria-hidden="true"  style="transition: none; background: none; color: rgb(247, 247, 242);">Older</span>
 			{% endif %}
 			{% if paginator.previous_page %}
 				{% if paginator.page == 2 %}
@@ -65,7 +65,7 @@ image: http://abbe98.github.io/assets/default.png
 				{% else %} <a class="btn" href="{{ site.baseurl }}page{{paginator.previous_page}}">Newer</a>
 				{% endif %}
 			{% else %}
-				<span class="btn" aria-hidden="true">Newer</span>
+				<span class="btn" aria-hidden="true" style="transition: none; background: none; color: rgb(247, 247, 242);">Newer</span>
 			{% endif %}
 			</div>
 		</section>

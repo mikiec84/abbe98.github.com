@@ -156,6 +156,10 @@ ul {
   text-align: center;
 }
 
+#menu-cover ul li img {
+  margin-bottom: -3px;
+}
+
 #menu-cover ul li a {
   display: block;
   color: #EDF7D2;

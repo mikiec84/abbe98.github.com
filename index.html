@@ -6,126 +6,39 @@ layout: nil
 	<head>
 		<title>Albin Larsson</title>
 		<meta charset="UTF-8"/>
-		<meta id="viewport" name="viewport" content ="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
 
-		<meta property="og:image" content="http://abbe98.github.io/assets/default.png"/>
-		<meta name="description" content="Albin Larssons site about web development, open data web accessibility and maps."/>
-
-		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
-		<link rel="stylesheet" href="css/style.css"/>
+		<link rel="stylesheet" href="css/style.css" />
+		<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,700,400" />
+		{% include general-icons.html %}
 		<style>
-			html {
-				font: 14px/1.4 Helvetica, Arial, sans-serif;
-				color: #333;
-				-webkit-text-size-adjust: 100%;
-				-ms-text-size-adjust: 100%;
-			}
-
 			body {
-				margin: auto;
+				background-color: #F7F7F2;
 			}
 
-			header {
-				height: auto;
-				width: 100%;
-				text-align: center;
-				font-size: 16px;
+			.landing {
+			  display: flex;
+			  flex-direction: column;
+			  align-items: center;
+			  justify-content: center;
+			  height: calc(100vh - 60px);
+			  width: 100%;
 			}
 
-			h1 {
-				font-size: 2.5em;
-				margin-bottom: 20px;
+			.landing h1 {
+			  float: none;
 			}
 
-			section {
-				width: 100%;
-				height: auto;
-				margin: 20px;
-			}
-
-			section img {
-				width: 25%;
-				margin-left: 12%;
-			}
-
-			section div {
-				width: 50%;
-				float: right;
-				margin-right: 11%;
-			}
-
-			section .low-text {
-				margin-top: 5%;
-			}
-
-			@media (max-width: 960px) {
-				section img {
-					display: block;
-					width: 50%;
-					margin: auto;
-				}
-
-				section div {
-					float: none;
-					text-align: center;
-					margin: auto;
-					width: 100%;
-				}
-
-				@media (max-width: 530px) {
-					section img {
-						width: 80%;
-					}
-				}
+			.landing p {
+			  font-style: italic;
 			}
 		</style>
 	</head>
 	<body>
-	<header>
-		<img alt="A nice looking logo that can take you here." src="assets/default.png">
-		<h1>Albin Larsson</h1>
-		<p><strong>Orienteering, Open Data, Code !== false</strong></p>
-	</header>
-	<main>
-		<section>
-			<img src="assets/default.png" alt="My blog/site logo.">
-			<div class="low-text">
-				<h2><a href="http://abbe98.github.io/blog/">Blog</a></h2>
-				<p>Read about all my projects, my deep thoughts about maps and open data or get some tips about great open data recurses.</p>
-			</div>
-		</section>
-		<section>
-			<img src="assets/github_logo.png" alt="The Github logo.">
-			<div class="low-text">
-				<h2><a href="https://github.com/Abbe98">Github</a></h2>
-				<p>Take a look at some source code in action at my Github profile.</p>
-			</div>
-		</section>
-		<section>
-			<img src="assets/osm_logo.svg" alt="The OpenStreetMap logo.">
-			<div class="low-text">
-				<h2><a href="https://www.openstreetmap.org/user/Abbe98">OpenStreetMap</a></h2>
-				<p>See the places I'm mapping, mostly around Nyköping and Katrineholm in Sweden but also many other places.</p>
-			</div>
-		</section>
-		<section>
-			<img src="assets/himlinge.png" alt="A photo from Himlinge.">
-			<div>
-				<h2>Himlinge</h2>
-				<p>The past years I have been living at the most beautiful place in the world. The small village Himlinge has a population of 15 people, 5 dogs, a couple of chickens, cats, horses and tons of cows. The village is located at a hill in a open landscape just north of the lake Kyrksjön.</p>
-			</div>
-		</section>
-		<section>
-			<img src="assets/omap.png" alt="A photo from Nyköping.">
-			<div>
-				<h2>Nyköping</h2>
-				<p>In August this fall I moved to Nyköping to continue my studies. My two main subjects is Technology and Special PE: Orienteering.
-				</p>
-			</div>
-		</section>
-	</main>
-	<footer>
-		<p>Copyright: Albin Larsson 2013-2016. Available at <a href="https://github.com/Abbe98/abbe98.github.com">Github</a>.</p>
-	</footer>
+{% include menu.html %}
+		<div class="landing">
+			<h1>ALBIN LARSSON</h1>
+			<p>I believe in knowledge but that's it</p>
+		</div>
+{% include global-javascript.html %}
 	</body>
 </html>

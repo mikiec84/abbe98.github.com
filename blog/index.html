@@ -2,7 +2,7 @@
 layout: nil
 title: Blog
 description: Albin Larssons blog about web development, open data, web accessibility and maps.
-image: http://abbe98.github.io/assets/default.png
+image: http://abbe98.github.io/assets/default2.png
 ---
 <!DOCTYPE html>
 <html lang="en">
@@ -17,7 +17,7 @@ image: http://abbe98.github.io/assets/default.png
 		<meta property="og:description" content="{{ page.description }}"/>
 
 		<link rel="alternate" type="application/rss+xml" href="http://abbe98.github.io/blog/atom.xml" title="Abbes Blog"/>
-		<link rel="icon" href="/favicon.ico" type="shortcut icon"/>
+		{% include general-icons.html %}
 		<link rel="stylesheet" href="/css/style.css"/>
 		{% if paginator.next_page %}		<link rel="next" href="{{ site.baseurl }}page{{paginator.next_page}}"/>
 		{% endif %}
@@ -28,49 +28,53 @@ image: http://abbe98.github.io/assets/default.png
 		{% endif %}
 	</head>
 	<body>
-		<header>
-			<a href="http://abbe98.github.io/"><img alt="A nice looking logo that can take you to my start page." src="http://abbe98.github.io/assets/default.png"></a>
-		</header>
+{% include menu.html %}
+		<h1>BLOG</h1>
+		<div class="container" style="padding-top: 60px;">
 			{% for post in paginator.posts %}
-		<article class="post">
-			<h2><a href="{{ post.url }}" title="{{ post.title | xml_escape }}">{{ post.title }}</a></h2>
-			<small class="date">
-				{% assign day = post.date | date: '%d' %}
-				{% case day %}
-					{% when '01', '21', '31' %}
-						{% assign suffix = 'st' %}
-					{% when '02', '22' %}
-						{% assign suffix = 'nd' %}
-					{% when '03', '23' %}
-						{% assign suffix = 'rd' %}
-					{% else %}
-						{% assign suffix = 'th' %}
-				{% endcase %}
-				{{ post.date | date: '%e' }}{{ suffix }}{{ post.date | date: ' %B %Y' }}
-			</small>
-			{{ post.content }}
-		</article>
-		{% endfor %}
-		<div class="pagination">
-		{% if paginator.next_page %}
-			<a class="pagination-item" href="{{ site.baseurl }}page{{paginator.next_page}}">Older</a>
-		{% else %}
-			<span class="pagination-item" aria-hidden="true">Older</span>
-		{% endif %}
-		{% if paginator.previous_page %}
-			{% if paginator.page == 2 %}
-				<a class="pagination-item" href="{{ site.baseurl }}">Newer</a>
-			{% else %} <a class="pagination-item" href="{{ site.baseurl }}page{{paginator.previous_page}}">Newer</a>
-			{% endif %}
-		{% else %}
-			<span class="pagination-item" aria-hidden="true">Newer</span>
-		{% endif %}
+			<article class="post">
+				<h2><a href="{{ post.url }}" title="{{ post.title | xml_escape }}">{{ post.title }}</a></h2>
+				<small class="date">
+					{% assign day = post.date | date: '%d' %}
+					{% case day %}
+						{% when '01', '21', '31' %}
+							{% assign suffix = 'st' %}
+						{% when '02', '22' %}
+							{% assign suffix = 'nd' %}
+						{% when '03', '23' %}
+							{% assign suffix = 'rd' %}
+						{% else %}
+							{% assign suffix = 'th' %}
+					{% endcase %}
+					{{ post.date | date: '%e' }}{{ suffix }}{{ post.date | date: ' %B %Y' }}
+				</small>
+				{{ post.content }}
+			</article>
+			{% endfor %}
 		</div>
-		<footer>
-			<p>Copyright <a href="https://plus.google.com/117416771865902932932">Albin Larsson</a> 2013-2016 • <a href="http://abbe98.github.io/archive.html">Archive</a> • <a href="http://abbe98.github.io/blog/atom.xml">RSS</a></p>
+		<section class="dark">
+			<div class="btn-container">
+			{% if paginator.next_page %}
+				<a class="btn" href="{{ site.baseurl }}page{{paginator.next_page}}">Older</a>
+			{% else %}
+				<span class="btn" aria-hidden="true"  style="transition: none; background: none; color: rgb(247, 247, 242);">Older</span>
+			{% endif %}
+			{% if paginator.previous_page %}
+				{% if paginator.page == 2 %}
+					<a class="btn" href="{{ site.baseurl }}">Newer</a>
+				{% else %} <a class="btn" href="{{ site.baseurl }}page{{paginator.previous_page}}">Newer</a>
+				{% endif %}
+			{% else %}
+				<span class="btn" aria-hidden="true" style="transition: none; background: none; color: rgb(247, 247, 242);">Newer</span>
+			{% endif %}
+			</div>
+		</section>
+		<footer style="text-align: center;">
+			<p>Copyright <a href="http://abbe98.github.io/">Albin Larsson</a> 2013-2016 • <a href="http://abbe98.github.io/archive.html">Archive</a> • <a href="http://abbe98.github.io/blog/atom.xml">RSS</a></p>
 		</footer>
 
 		<script src="/js/prism.js"></script>
 		<link rel="stylesheet" href="/css/prism.css"/>
+{% include global-javascript.html %}
 	</body>
 </html>

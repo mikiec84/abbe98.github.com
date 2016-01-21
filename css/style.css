@@ -154,10 +154,6 @@ ul {
   text-align: center;
 }
 
-#menu-cover ul li img {
-  margin-bottom: -3px;
-}
-
 #menu-cover ul li a {
   display: block;
   color: #EDF7D2;
@@ -227,6 +223,10 @@ ul {
 #menu-cover ul li a span {
   float: left;
   width: 100%;
+}
+
+#menu-cover ul li img {
+  margin-bottom: -3px;
 }
 
 li.archive,

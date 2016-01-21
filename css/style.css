@@ -254,18 +254,22 @@ h3 {
   margin: 0 0 10px;
 }
 
+h1 > a,
 h2 > a {
   position: relative;
   color: #333;
   text-decoration: none;
 }
 
+h1 > a:hover,
+h1 > a:focus,
 h2 > a:hover,
 h2 > a:focus {
   color: #333;
   text-decoration: none;
 }
 
+h1 > a:before,
 h2 > a:before {
   content: "";
   position: absolute;
@@ -281,6 +285,8 @@ h2 > a:before {
   transition: all 0.3s ease-in-out 0s;
 }
 
+h1 > a:hover:before,
+h1 > a:focus:before,
 h2 > a:hover:before,
 h2 > a:focus:before {
   visibility: visible;

@@ -218,15 +218,12 @@ ul {
 
 #menu-cover ul li a img {
   margin: auto;
+  margin-bottom: -3px;
 }
 
 #menu-cover ul li a span {
   float: left;
   width: 100%;
-}
-
-#menu-cover ul li img {
-  margin-bottom: -3px;
 }
 
 li.archive,

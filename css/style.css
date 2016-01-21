@@ -4,7 +4,6 @@ body {
   height: 100%;
   font-family: 'Open Sans', sans-serif;
   color: #333;
-  background-color: #F7F7F2;
 }
 
 .container {
@@ -37,7 +36,6 @@ header.image-header img {
 }
 
 section {
-  background-color: #F7F7F2;
   padding-top: 50px;
   padding-bottom: 50px;
   min-height: 50px;

@@ -79,7 +79,7 @@ $bBoxResultsArray = $kSamsok->geoSearch($west, $south, $east, $north, 300, 500);
 
 The parameters should be quite straight forward the four first parameters define the lat/lon borders of the bounding box. The first integer parameter does define where in the results to start retrieving items the last parameter define how many results to retrieve(1-500 is valid).
 
-The remaining public methods of KSams&ouml;k-PHP uses URIs as the main parameter so first let me introduce you to URIs in K-Sams&ouml;k. Lets take a look at the following URI: `raa/kmb/16000300020896` This is the most "raw" URI you can get in K-Sams&ouml;k. First the data provider is defined and then there is a regular ID.
+The remaining public methods of KSams&ouml;k-PHP uses URIs as the main parameter so first let me introduce you to URIs in K-Sams&ouml;k. Lets take a look at the following URI\: `raa/kmb/16000300020896` This is the most "raw" URI you can get in K-Sams&ouml;k. First the data provider is defined and then there is a regular ID.
 
 To retrieve the XML source of this item(from the API) you would guess there would be some parameter or extention such as `raa/kmb/16000300020896.xml` or `raa/kmb/16000300020896?format=xml`. This is actullay how it's done\: `raa/kmb/xml/16000300020896`.
 

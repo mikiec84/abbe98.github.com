@@ -120,7 +120,7 @@ Now we only have one public method left and it's `uriFormat()`. `uritFormat()` c
 <pre class="line-numbers"><code class="language-php">$kSamsok = new KSamsok('test');
 $uriString = $kSamsok->uriFormat('shm/site/18797', 'xmlurl');</code></pre>
 
-This would result in the string `http://kulturarvsdata.se/shm/site/xml/18797` being returned. The first parameter is simply the item URI or URL. The second parameter sets the type of URI or URL to be returned([see the documentation](https://abbe98.github.io/ksamsok-php/#uri)). By setting a third optional parameter to `true` you can trigger validation of the URI(returns `false if invalid`).
+This would result in the string `http://kulturarvsdata.se/shm/site/xml/18797` being returned. The first parameter is simply the item URI or URL. The second parameter sets the type of URI or URL to be returned([see the documentation](https://abbe98.github.io/ksamsok-php/#uri)). By setting a third optional parameter to `true` you can trigger validation of the URI(returns `false` if invalid).
 
 That's the basic usage of KSams&ouml;k-PHP in part two we extend its features using its protected methods to be able to take andvantage of all K-Sams&ouml;ks powerful native methods.
 

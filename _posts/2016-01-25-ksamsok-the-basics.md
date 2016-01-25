@@ -1,6 +1,6 @@
 ---
 layout: post
-title: KSams&ouml;k-PHP\: the Basics
+title: KSamsok PHP the Basics
 description: Learn how to work with Swedish Heritage data in PHP.
 image: http://abbe98.github.io/assets/soch-logo.jpg
 ---

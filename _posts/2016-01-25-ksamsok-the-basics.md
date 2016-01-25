@@ -1,6 +1,6 @@
 ---
 layout: post
-title: KSams&ouml;k-PHP: the Basics
+title: KSams&ouml;k-PHP\: the Basics
 description: Learn how to work with Swedish Heritage data in PHP.
 image: http://abbe98.github.io/assets/soch-logo.jpg
 ---
@@ -31,32 +31,26 @@ Installing K-Sams&ouml;k PHP requries the Composer package manager\:
 
 K-Sams&ouml;k requires an API key, for messing around you can use `test`. Create a new instance of the `KSamsok` class and provide your API key\:
 
-`$kSamsok = new KSamsok('test');`
+<pre class="line-numbers"><code class="language-php">$kSamsok = new KSamsok('test');</code></pre>
 
 ### Making a Simple Text Search
 
 Making a text based search is done using the the search method\:
 
-``` 
-$kSamsok = new KSamsok('test');
-$searchResultArray = $kSamsok->search('kanon', 1, 60);
-```
+<pre class="line-numbers"><code class="language-php">$kSamsok = new KSamsok('test');
+$searchResultArray = $kSamsok->search('kanon', 1, 60);</code></pre>
 
 Oh, parameters! The first one(`'kanon'`) is the string to search for, the second parameter defines where in the results you want to start retrieving items for example `1` means you want to start from the beginning of the search results. The last parameter in the example above tells the API how many items you want to retrieve(1-500 is valid).
 
 The following example would result in a search for the string `kyrka` starting at result 60 retrieving 60 results\:
 
-```
-$kSamsok = new KSamsok('test');
-$searchResultArray = $kSamsok->search('kyrka', 60, 60);
-```
+<pre class="line-numbers"><code class="language-php">$kSamsok = new KSamsok('test');
+$searchResultArray = $kSamsok->search('kyrka', 60, 60);</code></pre>
 
 There is an optional parameter too\:
 
-```
-$kSamsok = new KSamsok('test');
-$searchResultArray = $kSamsok->search('kyrka', 60, 60, true);
-```
+<pre class="line-numbers"><code class="language-php">$kSamsok = new KSamsok('test');
+$searchResultArray = $kSamsok->search('kyrka', 60, 60, true);</code></pre>
 
 This would simply make the something as the last example but only request items whit images, neat isn't it?
 
@@ -66,10 +60,8 @@ Okay, that's a basic text based search, lets move on.
 
 K-Sams&ouml;k has a simple method for auto completing and it's super simple to use with KSams&ouml;k-PHP\:
 
-```
-$kSamsok = new KSamsok('test');
-$searchHintObject = $kSamsok->searchHint('ka', 3);
-```
+<pre class="line-numbers"><code class="language-php">$kSamsok = new KSamsok('test');
+$searchHintObject = $kSamsok->searchHint('ka', 3);</code></pre>
 
 The first `searchHint()` parameter is the string to get auto completing suggestions from, the second parameter is optional and sets the number of suggestions to retrieve the default value is `5`. So now you can actually create a basic search engine.
 
@@ -77,15 +69,13 @@ The first `searchHint()` parameter is the string to get auto completing suggesti
 
 Now lets check out the KSams&ouml;k-PHP method for making bounding box searches\:
 
-```
-$west = '16.41';
+<pre class="line-numbers"><code class="language-php">$west = '16.41';
 $south = '59.07';
 $east = '16.42';
 $north = '59.08';
 
 $kSamsok = new KSamsok('test');
-$bBoxResultsArray = $kSamsok->geoSearch($west, $south, $east, $north, 300, 500);
-```
+$bBoxResultsArray = $kSamsok->geoSearch($west, $south, $east, $north, 300, 500);</code></pre>
 
 The parameters should be quite straight forward the four first parameters define the lat/lon borders of the bounding box. The first integer parameter does define where in the results to start retrieving items the last parameter define how many results to retrieve(1-500 is valid).
 
@@ -110,33 +100,25 @@ Yep that's the same item. In KSams&ouml;k-PHP it does not matter what URI or URL
 
 Lets return a single item based on its URI or URL\:
 
-```
-$kSamsok = new KSamsok('test');
-$itemObject = $kSamsok->object('http://kulturarvsdata.se/shm/site/xml/18797');
-```
+<pre class="line-numbers"><code class="language-php">$kSamsok = new KSamsok('test');
+$itemObject = $kSamsok->object('http://kulturarvsdata.se/shm/site/xml/18797');</code></pre>
 
 The following example would return the same result\:
 
-```
-$kSamsok = new KSamsok('test');
-$itemObject = $kSamsok->object('shm/site/18797'); 
-```
+<pre class="line-numbers"><code class="language-php">$kSamsok = new KSamsok('test');
+$itemObject = $kSamsok->object('shm/site/18797');</code></pre>
 
 ### Getting Items Relations
 
 Returning all relations for a item is just as neat\:
 
-```
-$kSamsok = new KSamsok('test');
-$relationsObject = $kSamsok->relations('shm/site/18797');
-```
+<pre class="line-numbers"><code class="language-php">$kSamsok = new KSamsok('test');
+$relationsObject = $kSamsok->relations('shm/site/18797');</code></pre>
 
 Now we only have one public method left and it's `uriFormat()`. `uritFormat()` convert K-Samsök URIs and URLs to any URI/URL type and even validate them\:
 
-```
-$kSamsok = new KSamsok('test');
-$uriString = $kSamsok->uriFormat('shm/site/18797', 'xmlurl');
-```
+<pre class="line-numbers"><code class="language-php">$kSamsok = new KSamsok('test');
+$uriString = $kSamsok->uriFormat('shm/site/18797', 'xmlurl');</code></pre>
 
 This would result in the string `http://kulturarvsdata.se/shm/site/xml/18797` being returned. The first parameter is simply the item URI or URL. The second parameter sets the type of URI or URL to be returned([see the documentation](https://abbe98.github.io/ksamsok-php/#uri)). By setting a third optional parameter to `true` you can trigger validation of the URI(returns `false if invalid`).
 

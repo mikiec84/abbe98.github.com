@@ -386,3 +386,10 @@ pre.line-numbers {
   padding-top: 5px;
   margin: 0;
 }
+
+pre {
+  overflow: auto;
+  word-break: normal !important;
+  word-wrap: normal !important;
+  white-space: pre !important;
+}

@@ -56,7 +56,7 @@ This would simply make the something as the last example but only request items 
 
 Okay, that's a basic text based search, lets move on.
 
-### Autocompleating Search
+### Autocompleting Search
 
 K-Sams&ouml;k has a simple method for auto completing and it's super simple to use with KSams&ouml;k-PHP\:
 
@@ -65,7 +65,7 @@ $searchHintObject = $kSamsok->searchHint('ka', 3);</code></pre>
 
 The first `searchHint()` parameter is the string to get auto completing suggestions from, the second parameter is optional and sets the number of suggestions to retrieve the default value is `5`. So now you can actually create a basic search engine.
 
-### Searching within a Boundingbox
+### Searching within a Bounding Box
 
 Now lets check out the KSams&ouml;k-PHP method for making bounding box searches\:
 
@@ -122,9 +122,9 @@ $uriString = $kSamsok->uriFormat('shm/site/18797', 'xmlurl');</code></pre>
 
 This would result in the string `http://kulturarvsdata.se/shm/site/xml/18797` being returned. The first parameter is simply the item URI or URL. The second parameter sets the type of URI or URL to be returned([see the documentation](https://abbe98.github.io/ksamsok-php/#uri)). By setting a third optional parameter to `true` you can trigger validation of the URI(returns `false` if invalid).
 
-That's the basic usage of KSams&ouml;k-PHP in part two we extend its features using its protected methods to be able to take andvantage of all K-Sams&ouml;ks powerful native methods.
+That's the basic usage of KSams&ouml;k-PHP in part two we extend its features using its protected methods to be able to take advantage of all K-Sams&ouml;ks powerful native methods.
 
-Pervius posts about K-Sams&ouml;k and heritage data\:
+Previous posts about K-Sams&ouml;k and heritage data\:
 
  - [Enabling CORS in SOCH with a Proxy on Google App Engine, November 2015](http://abbe98.github.io/blog/2015/11/24/enabling-cors-in-soch-with-a-proxy-on-google-app-engine/)
  - [Mapping the Past with Linked Data in OpenHistoricalMap, Mars 2015](http://abbe98.github.io/blog/2015/03/26/mapping-the-past-with-linked-data-in-openhistoricalmap/)

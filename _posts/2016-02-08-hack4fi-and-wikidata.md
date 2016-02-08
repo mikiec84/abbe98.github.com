@@ -13,7 +13,7 @@ I found myself in a total new position where I was the person people pointed at 
 
 I'm happy to see so many museums and other institutions opening up, many of them seams to have the process of copy and pasting values from a spreadsheet into Wikidata and Wikimedia Commons, aka there is a need for huge need for GLAM developers!
 
-## Ajapaik2Commons
+### Ajapaik2Commons
 
 Actually I did a bit of actual coding for a project. [Ajapaik2Commons](https://github.com/Abbe98/ajapaik2commons) could be completed in just two hours and was a nice way of ending the weekend. Ajapaik2Commons is a tool for taking a rephotograph from [Ajapaik.ee](http://ajapaik.ee/) and publish it on Wikimedia Commons with all of its meta data. Ajapaik2Commons is based on the [Mapillary2Commons](https://tools.wmflabs.org/mapillary-commons/mapillary2commons/) tool made by André Costa and it uses the [URL2Commons](http://tools.wmflabs.org/url2commons/index.html) tool by Magnus Manske behind the scenes. It can be used by other tool passing a Ajapaik id through a URL parameter. 
 

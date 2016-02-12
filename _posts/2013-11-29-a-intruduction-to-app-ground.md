@@ -10,9 +10,9 @@ I have often found myself adding all the stuff that's in App Ground to my basic 
 
 From that point of view I started working on App Ground. The first of August I did release the first stable version. On 4th August 1.0.1 was released after some fast feedback and discussions. But what features is in App Grounds 15 files?
 
-###Features
+### Features
 
-###CSS
+### CSS
 
 Normalize.css
 [Normalize.css][2] is an alternative to CSS resets, it’s developed by Nicolas Gallagher. Normalize.css is also used by Twitter Bootstrap, HTML5 Boilerplate and many other big projects.
@@ -25,7 +25,7 @@ Help Classes
 
 Help Classes is a collection of CSS classes you will use often, this includes classes to hide/view specific elements on different screen resolutions, align text and other common classes. Help Classes is also provided by Facile Framework.
 
-###JS
+### JS
 
 jQuery
 
@@ -35,13 +35,13 @@ Help JS
 
 Help JS sets variables telling you if your user has a internet connection, a touch device,or is browsing your app in portrait or landscape mode and other things… Note that detecting touch devices does not work in some older browsers as Internet Explorer 9 Mobile(Windows Phone 7/7.5/7.8).
 
-###Meta Tags
+### Meta Tags
 
 Open Graph
 
 [The Open Graph Protocol][4](OGP) was developed at Facebook but it’s now supported by major search engines and social networks(Facebook, Google+, Google, Twitter, Bing…). It allows you to add images, types and other things to your meta data.
 
-###AppCache
+### AppCache
 
 [AppCache][5] allows your user to browse your app when unable to connect to the internet. Remember you can use Help JS to detect when a user doesn't have a internet connection. Note that AppCache isn't supported by Internet Explorer 9.
 

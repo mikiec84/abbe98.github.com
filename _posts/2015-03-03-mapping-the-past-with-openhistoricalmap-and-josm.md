@@ -33,7 +33,7 @@ Just by knowing the PicLayer tools: move, scale and rotate and the native layer 
 
 Now go ahead and map all the stuff from your base map! Tags such as `source`/`ohm:year` can be added to all objects at once later on. If you don't know the `start_date`/`end_date` for a object, leave it and just provide the `ohm:year` later on.
 
-###Using Filters
+### Using Filters
 
 If you are working in an area objects from different time periods you will find use for this and other filters `"ohm:year"="1928"`.
 

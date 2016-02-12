@@ -14,7 +14,7 @@ The main disadvantage is that the platform is actually not a good place for the 
 
 Luckily for us linked data works great across platforms and that is why OpenHistoricalMap is a great place for your linked data. OpenHistoricalMap can easily link to platforms such as Wikidata, Wikipedia, Europeana and SOCH. Which are great for other types of data.
 
-###How I do Linked Data in OpenHistoricalMap
+### How I do Linked Data in OpenHistoricalMap
 
 Currently there is no "standard solution" for linked data I have seen concepts using extensions such as RDF and JSONLD. Personally I'm not a huge fan of any of them because they are complex and requires additional implantations.
 
@@ -58,11 +58,11 @@ This value should be the filename extension of the format or `platform_uri`(plat
 
 That's it when it comes to the key and its namespaces, sometimes a namespace for time duration would make sense too.
 
-###Links Between Objects in OpenHistoricalMap
+### Links Between Objects in OpenHistoricalMap
 
 Linking between objects in OpenHistoricalMap could use the same approach: `ohm:uri:contains:openhistoricalmap:platform_uri` would be a valid key. The platform URI then states if it's a relation,  node, or way followed by the object id(for example `n2083278729`). 
 
-###Example
+### Example
 
 As a showcase and proof of concept I have been adding `ohm:uri`s to [the Visby city wall](http://www.openhistoricalmap.org/way/198179683#map=16/57.6414/18.2934&layers=HN). Data from the following platforms are linked in this example:
 
@@ -88,27 +88,27 @@ Related reading over at the OpenStreetMap Wiki:
 
 I'm only saying that this is how I do linked data in OpenHistoricalMap feedback and criticism is loved.  Will document everything over at the Wiki in the coming week.
 
-###Extended
+### Extended
 
 **This part was first published at the OpenHistoricalMap mailing list. It might contain duplicate information.**
 
-####ohm:
+#### ohm:
 
 This is to make sure that it never gets confused with tags in OSM, I think all custom tags should have this namespace. OHM uses the same software as OSM for APIs, database, even frontend there for we should protect each project. We using the same editing software, data will end up in the wrong place... But yes it could be removed.
 
-####uri:
+#### uri:
 
 A relation using this approach will always be a URI, also it makes sense to have all relations under at least one common tag. But it could be removed, but it would be easier to query with a common uri tag...
 
-####relation:
+#### relation:
 
 This one is the core, I made up a few, that would make sense for OHM. This one can't be removed(and we have no reason to do so).
 
-####platform:
+#### platform:
 
 To get/parse data we need to know what it looks like, different platforms has different APIs and data models. The sooner we tell the developers what platform they should query for a specific relation the better. Just a URI does not make sense as many URIs are just id numbers.
 
-####format:
+#### format:
 
 Sending a HTTP request to a URL would give us the format but lets say that an object in OHM has 200 URLs linked. Would we send 200 HTTP requests to get the format so we could see which ones we can support? Some URL formats would tell us the format(`http://kulturarvsdata.se/shm/object/xml/974121`is xml), but not all does... 
 

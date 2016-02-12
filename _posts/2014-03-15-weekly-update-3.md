@@ -11,6 +11,7 @@ All weeks comes to an end, some of them are great weeks the rest is greater week
 So just because I like weird perspectives and needed to test Three.js and some plugins I did render the earth inside a sphere, can watch this for many minutes in a row. Zooming and dragging is supported too.
 
 [Site][3]
+
 [Source at Github][2]
 
 [1]: http://abbe98.github.io/blog/2014/03/07/weekly-update-2/

@@ -2,7 +2,7 @@
 layout: post
 title: Up and running!
 description: Albin Larssons blog about web development, open data web accessibility and maps is now live.
-image: http://abbe98.github.io/assets/default.png
+image: https://abbe98.github.io/assets/default.png
 ---
 So after a week working with [Jekyll][4], this new blog is somewhat ready for use. I will probably do changes to the site every week until summer, I have already things on the “todo” list for this blog.
 
@@ -11,7 +11,7 @@ Learning Jekyll wasn't as expected, I did run into several problems just because
 So do you want to follow along on my destiny to mess around with web standards, web accessibility and open source? Follow me on [Google+][3], [Twitter][2] or using [RSS][1].
 
 
-[1]: http://abbe98.github.io/atom.xml
+[1]: https://abbe98.github.io/atom.xml
 [2]: https://twitter.com/AlbinPCLarsson 
 [3]: https://plus.google.com/u/0/+AlbinabbeLarsson
 [4]: http://jekyllrb.com

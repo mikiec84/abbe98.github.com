@@ -2,7 +2,7 @@
 layout: post
 title: OMap Mapper day one
 description: The OMap Mapper project day one, web a11y and maps.
-image: http://abbe98.github.io/assets/default.png
+image: https://abbe98.github.io/assets/default.png
 ---
 So first day with my new OMap Mapper project, and it has been great weather all day, for short I haven't done so much on the application. Still some major things is done.
 
@@ -36,7 +36,7 @@ I might actually write a blog post about maps and web accessibility, it's intere
 
 That's it right now.
  
-[1]: http://abbe98.github.io/assets/omapmapper2.jpg
+[1]: https://abbe98.github.io/assets/omapmapper2.jpg
 [2]: https://github.com/Leaflet/Leaflet.markercluster
 [3]: https://github.com/janl/mustache.js
 [4]: https://gist.github.com/Abbe98/8862278

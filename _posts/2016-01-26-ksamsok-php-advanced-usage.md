@@ -2,10 +2,10 @@
 layout: post
 title: KSamsok PHP Advanced Usage
 description: Learn how to work with Swedish Heritage data in PHP with this advanced example.
-image: http://abbe98.github.io/assets/soch-logo.jpg
+image: https://abbe98.github.io/assets/soch-logo.jpg
 ---
 
-This is the second part out of two introducing the KSamsok-PHP API library, the first part is [KSams&ouml;k-PHP: the Basics](http://abbe98.github.io/blog/2016/01/25/ksamsok-the-basics/).
+This is the second part out of two introducing the KSamsok-PHP API library, the first part is [KSams&ouml;k-PHP: the Basics](https://abbe98.github.io/blog/2016/01/25/ksamsok-the-basics/).
 
 ### Extending
 
@@ -81,12 +81,12 @@ Using your new method is now as easy as using any of the basic ones\:
 <pre class="line-numbers"><code class="language-php">$kSamsok = new customKSamok('test');
 $searchResultArray = $kSamsok->photoSearch('kyrka');</code></pre>
 
-Now have fun and build something, checkout the [Documentation](http://abbe98.github.io/ksamsok-php/) and report any evil bugs at [Github](https://github.com/Abbe98/ksamsok-php).
+Now have fun and build something, checkout the [Documentation](https://abbe98.github.io/ksamsok-php/) and report any evil bugs at [Github](https://github.com/Abbe98/ksamsok-php).
 
 Previous posts about K-Sams&ouml;k and heritage data\:
 
- - [KSams&ouml;k-PHP\: the Basics, January 2016](http://abbe98.github.io/blog/2016/01/25/ksamsok-the-basics/)
- - [Enabling CORS in SOCH with a Proxy on Google App Engine, November 2015](http://abbe98.github.io/blog/2015/11/24/enabling-cors-in-soch-with-a-proxy-on-google-app-engine/)
- - [Mapping the Past with Linked Data in OpenHistoricalMap, Mars 2015](http://abbe98.github.io/blog/2015/03/26/mapping-the-past-with-linked-data-in-openhistoricalmap/)
- - [Mapping the Past with OpenHistoricalMap and JOSM, Mars 2015](http://abbe98.github.io/blog/2015/03/03/mapping-the-past-with-openhistoricalmap-and-josm/)
- - [Holiday Project K-Sams&ouml;k, January 2015](http://abbe98.github.io/blog/2015/01/07/holiday-project-ksamsok/)
+ - [KSams&ouml;k-PHP\: the Basics, January 2016](https://abbe98.github.io/blog/2016/01/25/ksamsok-the-basics/)
+ - [Enabling CORS in SOCH with a Proxy on Google App Engine, November 2015](https://abbe98.github.io/blog/2015/11/24/enabling-cors-in-soch-with-a-proxy-on-google-app-engine/)
+ - [Mapping the Past with Linked Data in OpenHistoricalMap, Mars 2015](https://abbe98.github.io/blog/2015/03/26/mapping-the-past-with-linked-data-in-openhistoricalmap/)
+ - [Mapping the Past with OpenHistoricalMap and JOSM, Mars 2015](https://abbe98.github.io/blog/2015/03/03/mapping-the-past-with-openhistoricalmap-and-josm/)
+ - [Holiday Project K-Sams&ouml;k, January 2015](https://abbe98.github.io/blog/2015/01/07/holiday-project-ksamsok/)

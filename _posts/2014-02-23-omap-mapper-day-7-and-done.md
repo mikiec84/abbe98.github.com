@@ -2,7 +2,7 @@
 layout: post
 title: OMap Mapper day 7 and done
 description: The OMap Mapper project is now published at Github and free to download.
-image: http://abbe98.github.io/assets/default.png
+image: https://abbe98.github.io/assets/default.png
 ---
 Since some hours back OMap Mapper is published at [Github][1], some hours of coding and 44 commits. 50% PHP, 20% JavaScript and 30% CSS, Github got the commits [graphs][2] for those who is interested. 
 
@@ -51,12 +51,12 @@ That's it, had a great time creating this and hopefully it will continue to be i
 [9]: http://leafletjs.com
 [10]: https://github.com/Leaflet/Leaflet.markercluster
 [11]: http://icomoon.io/#icons
-[12]: http://abbe98.github.io/blog/2014/02/13/omap-mapper-a-project-during-the-holidays/
-[13]: http://abbe98.github.io/blog/2014/02/17/omap-mapper-day-one/
-[14]: http://abbe98.github.io/blog/2014/02/18/omap-mapper-day-two/
-[15]: http://abbe98.github.io/blog/2014/02/19/omap-mapper-day-three/
-[16]: http://abbe98.github.io/blog/2014/02/20/omap-mapper-day-four/
-[17]: http://abbe98.github.io/blog/2014/02/21/omap-mapper-day-five/
+[12]: https://abbe98.github.io/blog/2014/02/13/omap-mapper-a-project-during-the-holidays/
+[13]: https://abbe98.github.io/blog/2014/02/17/omap-mapper-day-one/
+[14]: https://abbe98.github.io/blog/2014/02/18/omap-mapper-day-two/
+[15]: https://abbe98.github.io/blog/2014/02/19/omap-mapper-day-three/
+[16]: https://abbe98.github.io/blog/2014/02/20/omap-mapper-day-four/
+[17]: https://abbe98.github.io/blog/2014/02/21/omap-mapper-day-five/
 [18]: https://github.com/Abbe98/OMap-Mapper/archive/master.zip
-[19]: http://abbe98.github.io/assets/omapmapper2.jpg
-[20]: http://abbe98.github.io/assets/omapmapper3.jpg
+[19]: https://abbe98.github.io/assets/omapmapper2.jpg
+[20]: https://abbe98.github.io/assets/omapmapper3.jpg

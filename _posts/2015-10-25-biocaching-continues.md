@@ -2,11 +2,11 @@
 layout: post
 title: Biocaching Continues 
 description: The Biocaching project is getting great feedback from all over the world.
-image: http://abbe98.github.io/assets/biocaching-mauritius.jpg
+image: https://abbe98.github.io/assets/biocaching-mauritius.jpg
 ---
-![photo from a press conference in Port Louis](http://abbe98.github.io/assets/biocaching-mauritius.jpg)
+![photo from a press conference in Port Louis](https://abbe98.github.io/assets/biocaching-mauritius.jpg)
 
-Twice before has I been writing about Biocaching, [first when we won Hack4no](http://abbe98.github.io/blog/2015/07/01/hack4no) [then again when we relaunched the idea under the new name](http://abbe98.github.io/blog/2015/08/17/biocaching/) with a new website.
+Twice before has I been writing about Biocaching, [first when we won Hack4no](https://abbe98.github.io/blog/2015/07/01/hack4no) [then again when we relaunched the idea under the new name](https://abbe98.github.io/blog/2015/08/17/biocaching/) with a new website.
 
 Since then we got to the Citizen Science Challenge hosted by UNEP/Eye on Earth Alliance. Bj&oslash;rn and Alice went to Abu Dhabi and got a lot of great feedback. 
 

@@ -2,7 +2,7 @@
 layout: post
 title: Reading List Week 5/6 2015
 description: My reading list includes psychology, maps and programming.
-image: http://abbe98.github.io/assets/default.png
+image: https://abbe98.github.io/assets/default.png
 ---
 
 ### Programming/Web Stuff

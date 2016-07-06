@@ -2,7 +2,7 @@
 layout: post
 title: Reading List Week 3/4 2015
 description: My reading list week three and four 2015.
-image: http://abbe98.github.io/assets/default.png
+image: https://abbe98.github.io/assets/default.png
 ---
 ### Orienteering
 

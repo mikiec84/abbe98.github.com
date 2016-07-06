@@ -2,7 +2,7 @@
 layout: post
 title: OpenStreetMap CLC06 Import Cleanup
 description: The CLC06 import made in 2006 hurts the OSM ecosystem.
-image: http://abbe98.github.io/assets/ways-relations.jpg
+image: https://abbe98.github.io/assets/ways-relations.jpg
 ---
 When I first got involved in OpenStreetMap all my mapping was done in the iD editor, a great user experience for new users easy to work with and tagging made easy. My first experience with iD and OSM was terrible. It was because of a old low quality forest import that covers a huge area, shown below.
 
@@ -30,11 +30,11 @@ Any thoughts?
 
 [Link to related changesets][7]
 
-[0]: http://abbe98.github.io/assets/base-osm.jpg
+[0]: https://abbe98.github.io/assets/base-osm.jpg
 [1]: https://github.com/openstreetmap/iD/issues/2259
-[2]: http://abbe98.github.io/assets/jsom.jpg
-[3]: http://abbe98.github.io/assets/broken-id.jpg
-[4]: http://abbe98.github.io/assets/ways-relations.jpg
-[5]: http://abbe98.github.io/assets/relations.jpg
+[2]: https://abbe98.github.io/assets/jsom.jpg
+[3]: https://abbe98.github.io/assets/broken-id.jpg
+[4]: https://abbe98.github.io/assets/ways-relations.jpg
+[5]: https://abbe98.github.io/assets/relations.jpg
 [6]: http://www.eea.europa.eu/data-and-maps/data/corine-land-cover-2006-raster-3
 [7]: http://www.openstreetmap.org/user/Sten%20Åkerblom/history#map=9/59.2757/16.4822

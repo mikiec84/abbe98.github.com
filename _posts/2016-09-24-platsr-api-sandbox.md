@@ -32,7 +32,7 @@ In the end I ended up being relay happy about the end result you can [try the sa
 
 Tip: When developing APIs write the documentation first then use it as a blueprint for the actual development.
 
-####Want to chat?
+**Want to chat?**
 
 Would you like to talk to me about open data/data accessibility, hacks/projects or anything else?
 

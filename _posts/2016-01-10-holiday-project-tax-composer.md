@@ -2,7 +2,7 @@
 layout: post
 title: Holiday Project Tax Composer
 description: My holiday project Tax Composer comes because of a need for creating custom taxonomy schemes for the Biocaching project.
-image: https://abbe98.github.io/assets/tax-composer-scr-1.jpg
+image: http://byabbe.se/assets/tax-composer-scr-1.jpg
 ---
 This winter holiday is coming to a close. I have not only been inaccessible in some mountains cross-country skiing all days, although most people seams to believe so. This holiday I actually had two dedicated "holiday projects", a holiday project is simply projects that goes from idea to launched in a single holiday.
 
@@ -35,5 +35,5 @@ If have found any reason why you would need to build custom taxonomy schemes\:
  - [Download Tax Composer 0.3.0](https://github.com/Biocaching/Tax-Composer/releases/tag/0.3.0)
  - [Browse the source code](https://github.com/Biocaching/Tax-Composer)
 
-![screenshot](https://abbe98.github.io/assets/tax-composer-scr-1.jpg)
-![screenshot](https://abbe98.github.io/assets/tax-composer-scr-2.png)
+![screenshot](http://byabbe.se/assets/tax-composer-scr-1.jpg)
+![screenshot](http://byabbe.se/assets/tax-composer-scr-2.png)

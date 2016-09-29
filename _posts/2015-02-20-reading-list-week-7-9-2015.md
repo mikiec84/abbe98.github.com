@@ -2,7 +2,7 @@
 layout: post
 title: Reading List Week 7/8 2015
 description: Reading list about crazy stuff but still mostly maps.
-image: https://abbe98.github.io/assets/himlinge2.JPG
+image: http://byabbe.se/assets/himlinge2.JPG
 ---
 
 ### Web Development
@@ -32,4 +32,4 @@ image: https://abbe98.github.io/assets/himlinge2.JPG
  - [DSCOVR: a new view of Earth](https://www.mapbox.com/blog/dscovr/) - Mapbox about SpaceX first deep space mission.
  - [Geoengineering is an insane way to deal with climate change. Let's consider it anyway.](http://www.vox.com/2015/2/12/8020533/geoengineering-climate-change) - you are not the only one crazy I got that idea when I was 11(interesting but stupid at least for now).
 
-![Another sunset picture from Himlinge](https://abbe98.github.io/assets/himlinge2.JPG)
+![Another sunset picture from Himlinge](http://byabbe.se/assets/himlinge2.JPG)

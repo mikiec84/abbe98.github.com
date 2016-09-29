@@ -2,7 +2,7 @@
 layout: post
 title: Digging Deeper with Heritage Data and a Geocoder
 description: This article describes a reverse geocoding experiment preformed on heritage data. I'm using reverse geocoding to be able to improve location based search.
-image: https://abbe98.github.io/assets/soch-logo.jpg
+image: http://byabbe.se/assets/soch-logo.jpg
 ---
 
 This article describes a reverse geocoding experiment preformed on Swedish heritage data provided by the SOCH API. I'm using reverse geocoding and a bit of magic to be able to improve location based search by being able to return items that isn't georefrenced. This practice can be applied on almost any dataset.  
@@ -27,8 +27,8 @@ Only about 40% of the unique results was relevant for the requested location, I 
 
 The bounding box for a area covering all the places with the used names returned **32 results**.
 
-![statics](https://abbe98.github.io/assets/reverse-non-urban.png)
-![statics](https://abbe98.github.io/assets/reverse-non-urban-2.png)
+![statics](http://byabbe.se/assets/reverse-non-urban.png)
+![statics](http://byabbe.se/assets/reverse-non-urban-2.png)
 
 The urban area did cause some trouble, as about half of the place names used ended p being useless store names. One of the used place names was the name of the local museum, S&ouml;rmlands Museum even more sadly this did not cause any bad results because this is one museum witch has its collections content behind pay-walls and not available through the SOCH API.
 
@@ -36,8 +36,8 @@ There where **1640 results** unique this time, almost 100 results less then for 
 
 The relevant bounding box for the urban area returned **13 results**.
 
-![statics](https://abbe98.github.io/assets/reverse-urban.png)
-![statics](https://abbe98.github.io/assets/reverse-urban-2.png)
+![statics](http://byabbe.se/assets/reverse-urban.png)
+![statics](http://byabbe.se/assets/reverse-urban-2.png)
 
 It should be noted that the difference in results between the non-urban and the urban area is affected by the fact that the area covered is much larger for the non-urban area as a result of the density of place names.
 

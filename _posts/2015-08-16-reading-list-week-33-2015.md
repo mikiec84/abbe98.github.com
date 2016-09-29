@@ -2,7 +2,7 @@
 layout: post
 title: Reading List Week 33 2015
 description: Week 33 reading list about open source, maps and design.
-image: https://abbe98.github.io/assets/floda_kyrka_tak.jpg
+image: http://byabbe.se/assets/floda_kyrka_tak.jpg
 ---
 
 ### Design
@@ -32,4 +32,4 @@ image: https://abbe98.github.io/assets/floda_kyrka_tak.jpg
  - [Introducing Wikidata to the Linked Data Web](http://korrekt.org/papers/Wikidata-RDF-export-2014.pdf)
 
 When you take historical mapping serious and hangout on roof tops.
-![Image from church roof](https://abbe98.github.io/assets/floda_kyrka_tak.jpg)
+![Image from church roof](http://byabbe.se/assets/floda_kyrka_tak.jpg)

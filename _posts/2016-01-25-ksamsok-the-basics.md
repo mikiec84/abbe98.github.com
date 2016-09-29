@@ -2,7 +2,7 @@
 layout: post
 title: KSamsok PHP the Basics
 description: Learn how to work with Swedish Heritage data in PHP.
-image: https://abbe98.github.io/assets/soch-logo.jpg
+image: http://byabbe.se/assets/soch-logo.jpg
 ---
 
 K-Sams&ouml;k also known as SOCH is an aggregator and API for Swedish culture heritage institutions, it's developed by the [Swedish National Heritage Board](http://www.raa.se/om-riksantikvarieambetet/in-english/) and in the time of writing it has 6,066,262 items indexed.
@@ -17,7 +17,7 @@ Because content APIs that default to RDF sucks(I love linked data but still), me
 
 Ksams&ouml;k-PHP links\:
 
- - [Documentation](https://abbe98.github.io/ksamsok-php/)
+ - [Documentation](http://byabbe.se/ksamsok-php/)
  - [Github](https://github.com/Abbe98/ksamsok-php)
  - [Packagist](https://packagist.org/packages/abbe98/ksamsok-php)
 
@@ -120,13 +120,13 @@ Now we only have one public method left and it's `uriFormat()`. `uritFormat()` c
 <pre class="line-numbers"><code class="language-php">$kSamsok = new KSamsok('test');
 $uriString = $kSamsok->uriFormat('shm/site/18797', 'xmlurl');</code></pre>
 
-This would result in the string `http://kulturarvsdata.se/shm/site/xml/18797` being returned. The first parameter is simply the item URI or URL. The second parameter sets the type of URI or URL to be returned([see the documentation](https://abbe98.github.io/ksamsok-php/#uri)). By setting a third optional parameter to `true` you can trigger validation of the URI(returns `false` if invalid).
+This would result in the string `http://kulturarvsdata.se/shm/site/xml/18797` being returned. The first parameter is simply the item URI or URL. The second parameter sets the type of URI or URL to be returned([see the documentation](http://byabbe.se/ksamsok-php/#uri)). By setting a third optional parameter to `true` you can trigger validation of the URI(returns `false` if invalid).
 
 That's the basic usage of KSams&ouml;k-PHP in part two we extend its features using its protected methods to be able to take advantage of all K-Sams&ouml;ks powerful native methods.
 
 Previous posts about K-Sams&ouml;k and heritage data\:
 
- - [Enabling CORS in SOCH with a Proxy on Google App Engine, November 2015](https://abbe98.github.io/blog/2015/11/24/enabling-cors-in-soch-with-a-proxy-on-google-app-engine/)
- - [Mapping the Past with Linked Data in OpenHistoricalMap, Mars 2015](https://abbe98.github.io/blog/2015/03/26/mapping-the-past-with-linked-data-in-openhistoricalmap/)
- - [Mapping the Past with OpenHistoricalMap and JOSM, Mars 2015](https://abbe98.github.io/blog/2015/03/03/mapping-the-past-with-openhistoricalmap-and-josm/)
- - [Holiday Project K-Sams&ouml;k, January 2015](https://abbe98.github.io/blog/2015/01/07/holiday-project-ksamsok/)
+ - [Enabling CORS in SOCH with a Proxy on Google App Engine, November 2015](http://byabbe.se/blog/2015/11/24/enabling-cors-in-soch-with-a-proxy-on-google-app-engine/)
+ - [Mapping the Past with Linked Data in OpenHistoricalMap, Mars 2015](http://byabbe.se/blog/2015/03/26/mapping-the-past-with-linked-data-in-openhistoricalmap/)
+ - [Mapping the Past with OpenHistoricalMap and JOSM, Mars 2015](http://byabbe.se/blog/2015/03/03/mapping-the-past-with-openhistoricalmap-and-josm/)
+ - [Holiday Project K-Sams&ouml;k, January 2015](http://byabbe.se/blog/2015/01/07/holiday-project-ksamsok/)

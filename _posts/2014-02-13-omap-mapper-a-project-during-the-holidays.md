@@ -2,7 +2,7 @@
 layout: post
 title: OMap Mapper a project during the holidays
 description: OMap Mapper a project for mapping maps, that I will write during my holidays next week.
-image: https://abbe98.github.io/assets/default.png
+image: http://byabbe.se/assets/default.png
 ---
 I got holidays next week and I have some work to do on some projects but I want to do something with maps so during the holidays I will work on a new project...
 
@@ -26,7 +26,7 @@ The major idea is that I will use PHP to output GeoJSON(P) and JSONP, not totall
 
 ![OMap Mapper techniques][4]
 
-[1]: https://abbe98.github.io/assets/map-binders.jpg
+[1]: http://byabbe.se/assets/map-binders.jpg
 [2]: http://leafletjs.com
 [3]: https://github.com/Leaflet/Leaflet.markercluster
-[4]: https://abbe98.github.io/assets/omapmapper1.png
+[4]: http://byabbe.se/assets/omapmapper1.png

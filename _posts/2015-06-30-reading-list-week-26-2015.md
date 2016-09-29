@@ -2,7 +2,7 @@
 layout: post
 title: Reading List Week 26 2015
 description: My reading list week 26 2015 contains mostly map and web dev stuff.
-image: https://abbe98.github.io/assets/flower.JPG
+image: http://byabbe.se/assets/flower.JPG
 ---
 
 ### Web Development
@@ -23,4 +23,4 @@ image: https://abbe98.github.io/assets/flower.JPG
  - [The Web of Alexandria (follow-up)](http://worrydream.com/TheWebOfAlexandria/2.html) - the web is maybe the wrong place for ALL communications?
  - [Stalking Your Friends with Facebook Messenger](https://medium.com/faith-and-future/stalking-your-friends-with-facebook-messenger-9da8820bd27d) - don't be pissed-off you knew they knew and it's cool.
 
-![Just a beautiful flower](https://abbe98.github.io/assets/flower.JPG)
+![Just a beautiful flower](http://byabbe.se/assets/flower.JPG)

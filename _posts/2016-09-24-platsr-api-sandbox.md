@@ -2,7 +2,7 @@
 layout: post
 title: Platsr API Sandbox
 description: I made a API Sandbox for Platsr.se and introduces basic API accessibility.
-image: https://abbe98.github.io/assets/p-sandbox1.png
+image: http://byabbe.se/assets/p-sandbox1.png
 ---
 [Platsr.se][0] if you isn't familiar is a web community for gathering local stories and media around different locations. As of a result it got some pretty incredible data users has put a lot of thought into all all available under open licenses.
 
@@ -38,8 +38,8 @@ Would you like to talk to me about open data/data accessibility, hacks/projects 
 
 I will be attending both [Hack4Heritage][3] in Stockholm and [Hack4NO][4] in H&oslash;nefoss, make sure to catch me there!
 
-![Screenshot](https://abbe98.github.io/assets/p-sandbox1.png)
-![Screenshot](https://abbe98.github.io/assets/p-sandbox2.png)
+![Screenshot](http://byabbe.se/assets/p-sandbox1.png)
+![Screenshot](http://byabbe.se/assets/p-sandbox2.png)
 
 **Some previous  posts that might interest you\:**
 
@@ -49,9 +49,9 @@ I will be attending both [Hack4Heritage][3] in Stockholm and [Hack4NO][4] in H&o
 
 [0]: http://www.platsr.se/platsr/
 [1]:  http://www.platsr.nu/platsrs-api/
-[2]: https://abbe98.github.io/platsr-api-sandbox/index.html
+[2]: http://byabbe.se/platsr-api-sandbox/index.html
 [3]: http://www.hack4heritage.se/sv/
 [4]: http://hack4.no/
-[5]: https://abbe98.github.io/blog/2016/02/04/digging-deeper-with-heritage-data-and-a-geocoder
-[6]: https://abbe98.github.io/blog/2016/01/25/ksamsok-the-basics
-[7]: https://abbe98.github.io/blog/2016/01/26/ksamsok-php-advanced-usage
+[5]: http://byabbe.se/blog/2016/02/04/digging-deeper-with-heritage-data-and-a-geocoder
+[6]: http://byabbe.se/blog/2016/01/25/ksamsok-the-basics
+[7]: http://byabbe.se/blog/2016/01/26/ksamsok-php-advanced-usage

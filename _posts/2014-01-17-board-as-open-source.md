@@ -2,7 +2,7 @@
 layout: post
 title: Board as open source
 description: The javaScript core behind the application Board is now open source.
-image: https://abbe98.github.io/assets/default.png
+image: http://byabbe.se/assets/default.png
 ---
 Board, my "startpage" in Opera, my note application, my bookmark manager and my page for testing HTML5 features. During the summer I decided to clean it up and allow other users try it out, I dropped tons of things(I miss the Grooveshark integration), and fixed the browser supports, I did add synchronization for Opera users(with a extension) and fixed the browser support.
 
@@ -14,4 +14,4 @@ The notes system can easily be added to your websites and apps. Note that the no
  - [Source Code][1]
 
 [1]: https://github.com/Abbe98/Board
-[2]: https://abbe98.github.io/Board/
+[2]: http://byabbe.se/Board/

@@ -2,7 +2,7 @@
 layout: post
 title: Getting time
 description: Getting time is quite hard some times.
-image: https://abbe98.github.io/assets/default.png
+image: http://byabbe.se/assets/default.png
 ---
 Every day we spend time, most of the time I do something useful, but I spend hours doing “nothing” in school and on the bus. This blog looks pretty ugly right now, I it is not prioritized. I have tons of projects and I’m working on several open source projects... Today during the art class we were introduced to our next task, an image or something else that could represent you…
 
@@ -10,4 +10,4 @@ This blog represents me, and it’s in need of a redesign, so I did ask my teach
 
 On friday I’m free from school so the tools for Facile will be available then and I will probably push [App Ground][1] 1.3.0 to the developer branch.
 
-[1]: https://abbe98.github.io/App-Ground/
+[1]: http://byabbe.se/App-Ground/

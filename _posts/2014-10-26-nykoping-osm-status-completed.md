@@ -2,7 +2,7 @@
 layout: post
 title: Nyk&ouml;ping OSM status completed!
 description: Untill today Nyk&ouml;ping has been having the status of "decent". Now it's "completed".
-image: https://abbe98.github.io/assets/osm_logo.svg
+image: http://byabbe.se/assets/osm_logo.svg
 ---
 Untill today Nyk&ouml;ping has been having the status of "decent". The list of cities in Sweden and their status can be found on the Wiki([WikiProject Sweden/Cities][1]). After many hours of mapping yesterday, I changed the status to "completed"(for car navigation). The description of the completed status states "All public roads should be mapped. Roads should be tagged with `name` and driving restrictions should be fully mapped.".
 
@@ -14,4 +14,4 @@ The next parse in mapping Nyk&ouml;ping are we still discussing(we means me and 
 
 [1]: https://wiki.openstreetmap.org/wiki/WikiProject_Sweden/Cities
 [2]: http://qa.poole.ch/?zoom=5&lat=63&lon=16.5
-[3]: https://abbe98.github.io/assets/screenshot_id_gripen.png
+[3]: http://byabbe.se/assets/screenshot_id_gripen.png

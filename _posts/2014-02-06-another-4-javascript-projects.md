@@ -2,7 +2,7 @@
 layout: post
 title: Another 4 JavaScript projects
 description: Four great open source JavaScript projects you should check out.
-image: https://abbe98.github.io/assets/js.png
+image: http://byabbe.se/assets/js.png
 ---
 Sometime ago I wrote "[4 JS projects at Github for your web app.][1]" soon after I felt sorry about all the ones I did not write about. So here comes another four JavaScript projects.
 
@@ -34,12 +34,12 @@ The `<picture>` element haven't seen the daylight yet, hopefully we will see it 
 
 [Github][9]
 
-[1]: https://abbe98.github.io/blog/2013/12/06/4-js-projects-for-your-web-app/
+[1]: http://byabbe.se/blog/2013/12/06/4-js-projects-for-your-web-app/
 [2]: https://github.com/adobe/brackets
 [3]: https://github.com/janl/mustache.js/
 [4]: http://lab.ejci.net/favico.js/
 [5]: https://github.com/ejci/favico.js
-[6]: https://abbe98.github.io/blog/2014/01/17/board-as-open-source/
-[7]: https://abbe98.github.io/blog/2014/01/21/app-ground-1-3-0/
+[6]: http://byabbe.se/blog/2014/01/17/board-as-open-source/
+[7]: http://byabbe.se/blog/2014/01/21/app-ground-1-3-0/
 [8]: https://github.com/jeresig/jquery.hotkeys
 [9]: https://github.com/BBC-News/Imager.js

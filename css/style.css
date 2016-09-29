@@ -27,17 +27,8 @@ main {
   text-align: center;
 }
 
-header.first-image-header {
-  padding-top: 60px;
-}
-
-header.image-header {
-  height: 300px;
-}
-
 header.image-header img {
   width: 100%;
-  height: 100%;
 }
 
 section {

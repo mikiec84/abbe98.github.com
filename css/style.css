@@ -11,15 +11,19 @@ body {
   margin: auto;
 }
 
+.top-container {
+  display: inline-block;
+  width: 100%;
+  height: 60px;
+  float: left;
+}
+
 main {
+  display: inline-block;
   width: 100%;
   max-width: 1150px;
   margin: auto;
   text-align: center;
-}
-
-.hidden-menu-padding {
-  padding-top: 60px;;
 }
 
 header.first-image-header {

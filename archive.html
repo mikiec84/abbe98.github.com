@@ -21,9 +21,14 @@ image: https://abbe98.github.io/assets/default2.png
 		<link rel="stylesheet" href="/css/style.css"/>
 	</head>
 	<body>
-		<h1 class="uppercase">Archive</h1>
+		<div class="top-container">
+			<button onclick="toggleMenu()" class="menu-btn" aria-hidden="true">
+				<img src="https://abbe98.github.io/icons/interface-menu-w.svg" />
+			</button>
+			<h1 class="uppercase">Archive</h1>
+		</div>
 {% include menu.html %}
-		<div class="container" style="padding-top: 60px;">
+		<div class="container">
 			<div class="post">
 				<ul class="archive">
 					{% for post in site.posts %}

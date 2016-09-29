@@ -13,10 +13,15 @@ layout: nil
 		{% include general-icons.html %}
 	</head>
 	<body>
+		<div class="top-container">
+			<button onclick="toggleMenu()" class="menu-btn" aria-hidden="true">
+				<img src="https://abbe98.github.io/icons/interface-menu-w.svg" />
+			</button>
+			<h1 class="uppercase">Projects</h1>
+		</div>
 {% include menu.html %}
-		<h1 class="uppercase">Projects</h1>
 		<main>
-			<header class="image-header first-image-header">
+			<header class="image-header">
 				<img src="assets/biocaching.jpg" />
 			</header>
 			<section class="container">

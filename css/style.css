@@ -19,6 +19,10 @@ body {
   float: left;
 }
 
+.top-container h1 {
+  margin-left: 5px;
+}
+
 main {
   display: inline-block;
   width: 100%;

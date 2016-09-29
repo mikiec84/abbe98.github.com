@@ -371,7 +371,7 @@ pre {
   .container {
     margin-left: 4px;
     margin-right: 4px;
-    width: calc(100% - 8px);
+    width: auto;
   }
 
   .archive a:before {

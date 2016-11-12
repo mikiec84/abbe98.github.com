@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Kyrksok\.se and Wikidata
+title: Kyrksok.se and Wikidata
 description: Kyrksok.se links together various sources such as Wikipedia, Commons and Bebyggelseregistret and makes their content more accessible and discoverable.
 image: http://byabbe.se/assets/kyrksok.png
 ---

@@ -12,8 +12,9 @@ Kyrks&ouml;k links together various sources such as [Wikipedia][3], [Commons][4]
 
 Setting up a site and display content is never that interesting or much of a challenge not even if there is content from a lot of different sources as long as there is links between them.
 
-Guess what\,
-there was no such links\,
+Guess what,
+
+there was no such links,
 
 Luckily Wikidata is a perfect place to link all the datasets together.
 

@@ -343,19 +343,7 @@ a:active {
   height: 25px;
   padding-top: 3px;
   margin-bottom: 3px;
-}
-
-.share #___plusone_0,
-.share .g-plusone {
-  max-width: 60px;
-}
-
-.share #twitter-widget-0 {
-  width: 64px !important;
-}
-
-.share .fb-like {
-  bottom: 9px;
+  text-align: center;
 }
 
 .post img {

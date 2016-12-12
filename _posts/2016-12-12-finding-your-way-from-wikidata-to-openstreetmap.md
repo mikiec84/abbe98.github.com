@@ -1,4 +1,3 @@
-
 ---
 layout: post
 title: Finding your way from Wikidata to OpenStreetMap

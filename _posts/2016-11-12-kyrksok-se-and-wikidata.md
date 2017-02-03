@@ -22,7 +22,7 @@ Actually most of the time spent on Kyrksok was spent on linking Bebyggelseregist
 
 Once all the third-party URIs was in Wikidata, we could fetch a list of churches which had the required data using Wikidatas SparQL endpoint(Kyrksok query\: [visualized][7]/[source][6]).
 
-By using Pywikibot and [KSamsok-PY](9) we could then index data from all the data sources we needed without much work. Everything was indexed to a SQLite file. That's  mainly it, we had by then a great dataset indexed form a bunch of different sources.
+By using Pywikibot and [KSamsok-PY][9] we could then index data from all the data sources we needed without much work. Everything was indexed to a SQLite file. That's  mainly it, we had by then a great dataset indexed form a bunch of different sources.
 
 We then fired up a rest API(Python/Flask) for this SQLite file with both search/bounding box methods, still this API is made in less the 80 lines of code. [Just check it out][8].
 

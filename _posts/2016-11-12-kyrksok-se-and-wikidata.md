@@ -20,15 +20,15 @@ Luckily Wikidata is a perfect place to link all the datasets together.
 
 Actually most of the time spent on Kyrksok was spent on linking Bebyggelseregistret to Wikidata and on the existing data, mostly common tasks such as normalizing labels and verifying existing statements and links.
 
-Once all the third-party URIs was in Wikidata, we could fetch a list of churches which had the required data using Wikidatas SparQL endpoint(Kyrksok query\: [visualized](7)/[source](6)).
+Once all the third-party URIs was in Wikidata, we could fetch a list of churches which had the required data using Wikidatas SparQL endpoint(Kyrksok query\: [visualized][7]/[source][6]).
 
 By using Pywikibot and [KSamsok-PY](9) we could then index data from all the data sources we needed without much work. Everything was indexed to a SQLite file. That's  mainly it, we had by then a great dataset indexed form a bunch of different sources.
 
-We then fired up a rest API(Python/Flask) for this SQLite file with both search/bounding box methods, still this API is made in less the 80 lines of code. [Just check it out](8).
+We then fired up a rest API(Python/Flask) for this SQLite file with both search/bounding box methods, still this API is made in less the 80 lines of code. [Just check it out][8].
 
 The best thing about this is that this approach can be applied to any idea, the data in Wikidata is extremely diverse. Wikidata has become a incredible important source for many of the project I'm involved in including Biocaching.
 
-Go ahead and check out all the Kyrks&ouml;k repositories over at [Github](10).
+Go ahead and check out all the Kyrks&ouml;k repositories over at [Github][10].
 
 (Kyrks&ouml;k = "church search")
 

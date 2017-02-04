@@ -11,37 +11,16 @@ layout: nil
 		<link rel="stylesheet" href="css/style.css" />
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,700,400" />
 		{% include general-icons.html %}
-		<style>
-			body {
-				background-color: #F7F7F2;
-			}
-
-			.landing {
-			  display: flex;
-			  flex-direction: column;
-			  align-items: center;
-			  justify-content: center;
-			  height: calc(100vh - 60px);
-			  width: 100%;
-			}
-
-			.landing h1 {
-			  float: none;
-			}
-
-			.landing p {
-			  font-style: italic;
-			}
-		</style>
 	</head>
 	<body>
-		<button onclick="toggleMenu()" class="menu-btn" aria-hidden="true">
-			<img src="http://byabbe.se/icons/interface-menu-w.svg" />
-		</button>
 {% include menu.html %}
 		<div class="landing">
 			<h1 class="uppercase">Albin Larsson</h1>
-			<p>I believe in knowledge but that's it</p>
+			<p>Hi, I'm a software developer from Sweden who loves building crowd-sourcing tools and maps. In addition to my Wikimedia related projects over at the <a href="http://tools.wmflabs.org/hay/directory/#/author/Abbe98">WMF Tool Labs</a> and my public <a href="https://github.com/Abbe98">Github projects</a> I suggest you checkout my <a href="http://byabbe.se/blog/">Blog</a> or some of the sites below.</p>
+			<div>
+				<a href="https://biocaching.com/"><img class="landing" src="biocaching_logo.svg" /></a>
+				<a href="http://kyrksok.se/"><img class="landing" src="kyrksok_logo.svg" /></a>
+			</div>
 		</div>
 {% include global-javascript.html %}
 	</body>

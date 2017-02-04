@@ -28,12 +28,6 @@ image: http://byabbe.se/assets/default2.png
 		{% endif %}
 	</head>
 	<body>
-		<div class="top-container">
-			<button onclick="toggleMenu()" class="menu-btn" aria-hidden="true">
-				<img src="http://byabbe.se/icons/interface-menu-w.svg" />
-			</button>
-			<h1 class="uppercase">Blog</h1>
-		</div>
 {% include menu.html %}
 		<div class="container">
 			{% for post in paginator.posts %}

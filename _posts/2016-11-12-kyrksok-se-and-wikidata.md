@@ -2,9 +2,9 @@
 layout: post
 title: Kyrksok.se and Wikidata
 description: Kyrksok.se links together various sources such as Wikipedia, Commons and Bebyggelseregistret and makes their content more accessible and discoverable.
-image: http://byabbe.se/assets/kyrksok.png
+image: https://byabbe.se/assets/kyrksok.png
 ---
-![The Kyrksok logo](http://byabbe.se/assets/kyrksok.png)
+![The Kyrksok logo](https://byabbe.se/assets/kyrksok.png)
 
 A few weekends ago [Jan Ainali][0], [Lars Lundqist][1], Ulrika Nilsson, David Zardini and myself attended the Hack4Heritage hackathon in Stockholm. We ended up creating the site [Kyrksok.se][2], a directory for churches in Sweden.
 

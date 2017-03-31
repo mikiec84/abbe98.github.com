@@ -2,7 +2,7 @@
 layout: post
 title: Mapping the Past with Linked Data in OpenHistoricalMap
 description: OpenHistoricalMap is a great place, for open linked data, it has some advantages over other data platforms and some disadvantages.
-image: http://byabbe.se/assets/himlinge-sunset.jpg
+image: https://byabbe.se/assets/himlinge-sunset.jpg
 ---
 **Extended 2015/03/29**
 

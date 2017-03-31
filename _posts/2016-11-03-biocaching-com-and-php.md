@@ -2,7 +2,7 @@
 layout: post
 title: Biocaching.com and PHP
 description: The main Biocaching client biocaching.com is built with PHP and I was the one responsible for the decision to do it that way.
-image: http://byabbe.se/assets/bc-profile-screenshot.png
+image: https://byabbe.se/assets/bc-profile-screenshot.png
 ---
 The main Biocaching client [biocaching.com](https://biocaching.com/) is built with PHP and I was the one responsible for the decision to do it that way.
 
@@ -20,7 +20,7 @@ Aka general development work-flow.
 
 So the reason for the issue on biocaching.com was my logic for rendering all the follow buttons(there can be a lot of them).
 
-![screenshot](http://byabbe.se/assets/bc-profile-screenshot.png)
+![screenshot](https://byabbe.se/assets/bc-profile-screenshot.png)
 
 I started of with my calculator as usually when working on performance issues, did some analytics and decided on a solution that could reduce the TTFB up to 37%! 
 

@@ -2,7 +2,7 @@
 layout: post
 title: Enabling CORS in SOCH with a Proxy on Google App Engine
 description: Adding CORS support to the SOCH API with a free proxy on Google App Engine
-image: http://byabbe.se/assets/soch-logo.jpg
+image: https://byabbe.se/assets/soch-logo.jpg
 ---
 One of my favorite APIs is SOCH also known as K-Sams&ouml;k, I love it because of it's content. In the time of writing it contains 6117658 heritage items. 
 

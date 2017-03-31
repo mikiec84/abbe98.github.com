@@ -2,7 +2,7 @@
 layout: post
 title: Reading List Week 2 2015
 description: Reading List Week 2 2015
-image: http://byabbe.se/assets/snow.jpg
+image: https://byabbe.se/assets/snow.jpg
 ---
 I love reading other peoples reading lists, I think they are a great way for sharing content and finding new sources such as blogs. This is my first reading list I publishing so you will find some of 2014 best content as well.
 
@@ -23,5 +23,5 @@ I love reading other peoples reading lists, I think they are a great way for sha
 
  - [Deep Visual-Semantic Alignments for Generating Image Descriptions](http://cs.stanford.edu/people/karpathy/deepimagesent/devisagen_arxiv.pdf) - This NN technology can help us slove the accessibility issue with user generated content!
 
-![It's snowing!](http://byabbe.se/assets/snow.jpg)
+![It's snowing!](https://byabbe.se/assets/snow.jpg)
 The plan for today was MTB Orienteering, now the plan is skiing :-)

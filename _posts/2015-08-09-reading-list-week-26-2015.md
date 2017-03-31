@@ -2,7 +2,7 @@
 layout: post
 title: Reading List Week 32 2015
 description: My reading list week 32 2015 mostly about web standards and maps
-image: http://byabbe.se/assets/himlinge.png
+image: https://byabbe.se/assets/himlinge.png
 ---
 
 ### Web Development

@@ -2,7 +2,7 @@
 layout: post
 title: On my board
 description: Projects I works/worked on during 2013.
-image: http://byabbe.se/assets/default.png
+image: https://byabbe.se/assets/default.png
 ---
 I have many projects going on, some open source some not, some active some inactive, but I would like to share them with you. Have your thoughts on them and write about my workflow.
 

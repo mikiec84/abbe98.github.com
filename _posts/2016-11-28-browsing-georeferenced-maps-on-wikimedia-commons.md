@@ -2,11 +2,11 @@
 layout: post
 title: Browsing Georeferenced Maps on Wikimedia Commons
 description: Browsing georeferenced maps on Wikimedia Commons with a userscript.
-image: http://byabbe.se/assets/warper-commons-viewer.gif
+image: https://byabbe.se/assets/warper-commons-viewer.gif
 ---
 There is tons of georeferenced maps over at Wikimedia Commons and the Wikimaps Warper and earlier this year we added the ability to retrieve the georeferenced data from the Warper by the Commons page ID. This allows developers and others writing UserScripts and Gadgets to fetch Warper data directly from Commons.
 
-![screenshot](http://byabbe.se/assets/warper-commons-viewer.gif)
+![screenshot](https://byabbe.se/assets/warper-commons-viewer.gif)
 
 So a while ago I wrote a gadget which would embed any georeferenced map directly on it's Commons page. To install it import it by adding `importScript('User:Abbe98/warper-viewer.js');` to your `common.js` file.
 

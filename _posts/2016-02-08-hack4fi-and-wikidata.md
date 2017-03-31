@@ -2,10 +2,10 @@
 layout: post
 title: Hack4FI and Wikidata
 description: I'm just home from Hack4FI in Helsinki where I was as a part of Wikimedia Finlands Wikidata project.
-image: http://byabbe.se/assets/hack4fi-logo-2016.jpg
+image: https://byabbe.se/assets/hack4fi-logo-2016.jpg
 ---
 
-![Hack4FI logo](http://byabbe.se/assets/hack4fi-logo-2016.jpg)
+![Hack4FI logo](https://byabbe.se/assets/hack4fi-logo-2016.jpg)
 
 I got home late yesterday after an entire weekend at [Hack4FI - Hack your heritage](http://hack4.fi/) in Helsinki. This was a very different hackathon for me, because I was there as a part of Wikimedia Finlands Wikidata project and had no intention at all to work on any specific project. The only aim I had was to promote Wikidata/Wikimedia and help with actual technical things as much as I could.
 

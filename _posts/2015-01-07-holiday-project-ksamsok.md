@@ -2,7 +2,7 @@
 layout: post
 title: Holiday Project K-Sams&ouml;k
 description: Showing off my holiday project that is using open data.
-image: http://byabbe.se/assets/bildplats.png
+image: https://byabbe.se/assets/bildplats.png
 ---
 My Christmas holiday started with me becoming sick, a terrible thing for the planned orienteering and workouts. So I decided to go for a little bigger holiday project the usually.
 
@@ -30,6 +30,6 @@ The aim was to "finish" it until the end of this holiday, but school begins tomo
 
 [0]: https://github.com/Abbe98/ksamsok-php
 [1]: https://packagist.org/packages/abbe98/ksamsok-php
-[3]: http://byabbe.se/assets/bildplats.png
+[3]: https://byabbe.se/assets/bildplats.png
 [4]: http://wikilovesmaps.wikimedia.fi/
 [5]: http://www.k-blogg.se/2014/12/23/k-samsok-2014-tio-punkter/

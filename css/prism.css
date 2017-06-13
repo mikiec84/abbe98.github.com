@@ -1,4 +1,4 @@
-/* http://prismjs.com/download.html?themes=prism&languages=markup+css+clike+javascript+basic+c+csharp+cpp+http+java+json+php+python+r+sql+wiki+yaml&plugins=line-numbers+show-invisibles+autolinker */
+/* http://prismjs.com/download.html?themes=prism&languages=markup+css+clike+javascript+basic+c+csharp+cpp+ruby+css-extras+graphql+java+json+lua+markdown+php+php-extras+python+r+jsx+rust+sql+typescript+wiki&plugins=line-numbers+show-invisibles+autolinker */
 /**
  * prism.js default theme for JavaScript, CSS and HTML
  * Based on dabblet (http://dabblet.com)
@@ -11,7 +11,6 @@ pre[class*="language-"] {
 	background: none;
 	text-shadow: 0 1px white;
 	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
-	direction: ltr;
 	text-align: left;
 	white-space: pre;
 	word-spacing: normal;
@@ -178,10 +177,19 @@ pre.line-numbers > code {
 			padding-right: 0.8em;
 			text-align: right;
 		}
+.token.tab:not(:empty),
+.token.cr,
+.token.lf,
+.token.space {
+	position: relative;
+}
+
 .token.tab:not(:empty):before,
 .token.cr:before,
-.token.lf:before {
+.token.lf:before,
+.token.space:before {
 	color: hsl(24, 20%, 85%);
+	position: absolute;
 }
 
 .token.tab:not(:empty):before {
@@ -199,6 +207,9 @@ pre.line-numbers > code {
     content: '\240A';
 }
 
+.token.space:before {
+	content: '\00B7';
+}
 .token a {
 	color: inherit;
 }

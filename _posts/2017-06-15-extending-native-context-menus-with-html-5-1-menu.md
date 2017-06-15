@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Extending native context menus with HTML 5.1 &lt;menu&gt;
+title: Extending Native Context Menus with HTML 5.1 &lt;menu&gt;
 description: I recently played around with Service Workers to learn.
 image: https://byabbe.se/assets/context-menu-2.png
 ---
@@ -17,16 +17,16 @@ I added items to the context menu to my "bookshelf" now when right clicking a bo
 Custom parts of the native context menu is defined using the `<menu>` element(`<menu>` is standardized to define menus for buttons and toolbar too), to link a `<menu>` to its container there is an `contextmenu` attribute, I added this attribute to the element containing all books as children.
 
 <pre><code class="language-html">&lt;menu type="context" id="book-menu">
-      &lt;menuitem label="Go to byabbe.se" id="byabbe-se">&lt;/menuitem>
-      &lt;menu label="Search">
-        &lt;menuitem label="Bokus" id="bokus-search">&lt;/menuitem>
-        &lt;menuitem label="Amazon" id="amazon-search">&lt;/menuitem>
-      &lt;/menu>
-    &lt;/menu></code></pre>
+  &lt;menuitem label="Go to byabbe.se" id="byabbe-se">&lt;/menuitem>
+  &lt;menu label="Search">
+    &lt;menuitem label="Bokus" id="bokus-search">&lt;/menuitem>
+    &lt;menuitem label="Amazon" id="amazon-search">&lt;/menuitem>
+  &lt;/menu>
+&lt;/menu></code></pre>
 
 Adding actual functionality to the items is done with the regular `click` event. But in this case the action deepened upon which element(book) that the context menu had been triggered on. This was some thing I had too keep track of by another listener.
 
-<pre><code>let currentContext = '';
+<pre><code class="language-javascript">let currentContext = '';
 document.querySelectorAll('.list')[0].addEventListener('contextmenu', e => {
   let target = e.target;
   let bookContainer;
